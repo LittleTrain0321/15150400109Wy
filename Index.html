@@ -1,10 +1,148 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 <head>
     <meta charset="UTF-8">
     <title>变革者图书管理系统</title>
+    <style>
+        body{
+            background-color: #333333;
+            width: 1920px;
+            height: 1080px;;
+        }
+        #div1{
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 80%;
+            height: 90%;
+            
+            position: absolute;
+        }
+        #div2{
+            margin: auto;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 80%;
+            border: 1px solid yellow;
+            position: absolute;
+        }
+        #h1{
+            color: white;
+            text-align: center;
+            position: absolute;
+            left: 0;
+            right: 0;
+            font-size: 200%;
+        }
+        #bt1{
+            width: 10%;
+            height: 1.9%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            top: 0;
+            color:white;
+            font-size: 15%;
+            border: 1px solid yellow;
+        }
+        #bt2{
+            width: 10%;
+            height: 1.9%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            top: 22px;
+            color:white;
+            font-size: 15%;
+            border: 1px solid yellow;
+        }
+        #bt3{
+            background-color: black;
+            color: white;
+            border: 1px solid yellow;
+        }
+        .text{
+            width: 27%;
+            
+           position: relative;
+        }
+        #table1{
+            width: 100%;
+            position: absolute;
+            text-align: center;
+            font-size:2vw;
+        }
+        #td1{
+            border:2px solid white;
+            color: white;
+        }
+    </style>
 </head>
 <body>
+  
+   <h1 id="h1">变革者图书管理系统</h1>
+   
+    <div id="div1">
+      
+       
+       <input type="text" class="text" placeholder="请输入书名"> <!--书名-->
+       <input type="text" class="text" placeholder="请输入作者"> <!--作者名-->
+       <input type="text" class="text" placeholder="请输入数量"> <!--数量-->
+       <input type="text" class="text" placeholder="请输入出版社"> <!--出版社-->
+       <input type="text" class="text" placeholder="请输入单价"> <!--单价-->
+       <input type="text" class="text" placeholder="请输入ISBN号"> <!--IBSN-->
+       
+       
+          <button id="bt1" >添加 </button>
+          <br>
+          <button id="bt2" >搜索 </button>
+        <div id="div2">
+<!--            书库页面内容-->
+             <table id="table1">
+            <tr id="td1">
+                <th>书名</th>
+                <th>作者名</th>
+                <th>数量</th>
+                <th>出版社</th>
+                <th>单价</th>
+                <th>ISBN</th>
+            </tr>
+
+            <tr id="td1">
+                <td>
+                    <p class="book">史记</p>
+                </td>
+                <td>
+                    <p class="author">司马迁</p>
+                </td>
+                <td>
+                    <p class="Onumber">1</p>
+                </td>
+                <td>
+                    <p class="press">中华书局</p>
+                </td>
+                <td>
+                    <p class="price">125￥</p>
+                </td> <td>
+                    <p class="isbn">9787101003048</p>
+                </td>
+                <td><button id="bt3" class="Odelete">删除</button></td>
+                
+            </tr>
+           
+            
+          
+        </table>
+        </div>
+        
+    </div>
+    
+
     
 </body>
 </html>
