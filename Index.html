@@ -156,6 +156,38 @@
             var author = document.getElementsByClassName('author'); //获取书库作者名
             var chubanshe = document.getElementsByClassName('press'); //获取书库出版社名
             var isbn = document.getElementsByClassName('isbn'); //获取isbn号
+          
+            
+        
+            //遍历书库
+            for (var i = 0; i < book.length; i++) {
+
+                if (value1.value == book[i].innerHTML) {
+                    book[i].style.color = 'red';
+                    book[i].style.backgroundColor = 'white';
+                } else if (value2.value == author[i].innerHTML) {
+                    author[i].style.color = 'red';
+                    author[i].style.backgroundColor = 'white';
+                } else if (value3.value == chubanshe[i].innerHTML) {
+                    chubanshe[i].style.color = 'red';
+                    chubanshe[i].style.backgroundColor = 'white';
+
+
+                } else {
+                    book[i].parentNode.parentNode.style.display = 'none';
+                }
+
+            }
+            value1.value = '';
+            value2.value = '';
+            value3.value = '';
+        }
+
+       
+
+
+
+      
     
     </script>
     
