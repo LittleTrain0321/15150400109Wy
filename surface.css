@@ -24,6 +24,7 @@
             height: 80%;
             border: 1px solid yellow;
             position: absolute;
+            overflow: auto;
         }
         #h1{
             color: white;
@@ -55,7 +56,7 @@
             font-size: 15%;
             border: 1px solid yellow;
         }
-        #bt3{
+        .Odelete{
             background-color: black;
             color: white;
             border: 1px solid yellow;
@@ -71,7 +72,11 @@
             text-align: center;
             font-size:2vw;
         }
-        #td1{
+        td{
+            
+            color: white;
+        }
+       tr{
             border:2px solid white;
             color: white;
         }

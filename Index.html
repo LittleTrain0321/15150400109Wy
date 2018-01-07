@@ -15,12 +15,12 @@
     <div id="div1">
       
        
-       <input type="text" class="text" placeholder="请输入书名"> <!--书名-->
-       <input type="text" class="text" placeholder="请输入作者"> <!--作者名-->
-       <input type="text" class="text" placeholder="请输入数量"> <!--数量-->
-       <input type="text" class="text" placeholder="请输入出版社"> <!--出版社-->
-       <input type="text" class="text" placeholder="请输入单价"> <!--单价-->
-       <input type="text" class="text" placeholder="请输入ISBN号"> <!--IBSN-->
+       <input type="text" id="value1" class="text" placeholder="请输入书名"> <!--书名-->
+       <input type="text" id="value2" class="text" placeholder="请输入作者"> <!--作者名-->
+       <input type="text" id="value3" class="text" placeholder="请输入数量"> <!--数量-->
+       <input type="text" id="value4" class="text" placeholder="请输入出版社"> <!--出版社-->
+       <input type="text" id="value5" class="text" placeholder="请输入单价"> <!--单价-->
+       <input type="text" id="value6" class="text" placeholder="请输入ISBN号"> <!--IBSN-->
        
        
           <button id="bt1" >添加 </button>
@@ -29,7 +29,7 @@
         <div id="div2">
 <!--            书库页面内容-->
              <table id="table1">
-            <tr id="td1">
+            <tr >
                 <th>书名</th>
                 <th>作者名</th>
                 <th>数量</th>
@@ -38,15 +38,15 @@
                 <th>ISBN</th>
             </tr>
 
-            <tr id="td1">
-                <td>
+            <tr  >
+                <td >
                     <p class="book">史记</p>
                 </td>
                 <td>
                     <p class="author">司马迁</p>
                 </td>
                 <td>
-                    <p class="Onumber">1</p>
+                    <p class="numberr">1</p>
                 </td>
                 <td>
                     <p class="press">中华书局</p>
@@ -56,10 +56,11 @@
                 </td> <td>
                     <p class="isbn">9787101003048</p>
                 </td>
-                <td><button id="bt3" class="Odelete">删除</button></td>
+                <td><button class="Odelete">删除</button></td>
                 
             </tr>
-           
+            
+          
             
           
         </table>
@@ -70,16 +71,21 @@
 <script>
     
       //   搜索
-        var find = document.getElementById('find');
+        var find = document.getElementById('bt2');
         // 搜索点击
         find.onclick = function() {
             //        获取搜索内容
             var value1 = document.getElementById('value1'); //获取输入的书名
             var value2 = document.getElementById('value2'); //获取输入的作者名
-            var value3 = document.getElementById('value3'); //获取输入的出版社名
+            var value3 = document.getElementById('value3'); //获取输入的数量
+            var value4 = document.getElementById('value4'); //获取输入的出版社名
+            var value5 = document.getElementById('value5'); //获取输入的单价
+            var value6 = document.getElementById('value6'); //获取输入的ISBN号
             var book = document.getElementsByClassName('book'); //获取书库书名       
             var author = document.getElementsByClassName('author'); //获取书库作者名
+            var numberr = document.getElementsByClassName('numberr'); //获取书的数量
             var chubanshe = document.getElementsByClassName('press'); //获取书库出版社名
+            var price = document.getElementsByClassName('price'); //获取单价
             var isbn = document.getElementsByClassName('isbn'); //获取isbn号
           
             
@@ -93,9 +99,23 @@
                 } else if (value2.value == author[i].innerHTML) {
                     author[i].style.color = 'red';
                     author[i].style.backgroundColor = 'white';
-                } else if (value3.value == chubanshe[i].innerHTML) {
+                } else if (value3.value == numberr[i].innerHTML) {
+                    numberr[i].style.color = 'red';
+                    numberr[i].style.backgroundColor = 'white';
+                } 
+                else if (value4.value == chubanshe[i].innerHTML) {
                     chubanshe[i].style.color = 'red';
                     chubanshe[i].style.backgroundColor = 'white';
+
+
+                } else if (value5.value == price[i].innerHTML) {
+                    price[i].style.color = 'red';
+                    price[i].style.backgroundColor = 'white';
+
+
+                } else if (value6.value == isbn[i].innerHTML) {
+                    isbn[i].style.color = 'red';
+                    isbn[i].style.backgroundColor = 'white';
 
 
                 } else {
@@ -106,6 +126,9 @@
             value1.value = '';
             value2.value = '';
             value3.value = '';
+            value4.value = '';
+            value5.value = '';
+            value6.value = '';
         }
 
        
@@ -114,18 +137,20 @@
 
         //        添加图书功能
        
-        var build = document.getElementById('build');
+        var build = document.getElementById('bt1');
         build.onclick = function() {
+            
             var table1 = document.getElementById('table1'); //获取书库列表
-            var value4 = document.getElementById('value4'); //获取添加书名
-            var value5 = document.getElementById('value5'); //获取添加的作者名字
-            var value6 = document.getElementById('value6'); //获取添加的出版社名字
-            var value7 = document.getElementById('value7'); //获取添加的数量
-            var value8 = document.getElementById('value8'); //获取添加的价格
-                
-            var Oarr = [value4,value5,value6,value7,value8];
+            var value1 = document.getElementById('value1'); //获取输入的书名
+            var value2 = document.getElementById('value2'); //获取输入的作者名
+            var value3 = document.getElementById('value3'); //获取输入的数量
+            var value4 = document.getElementById('value4'); //获取输入的出版社名
+            var value5 = document.getElementById('value5'); //获取输入的单价
+            var value6 = document.getElementById('value6'); //获取输入的ISBN号
+           
+            var Oarr = [value1,value2,value3,value4,value5,value6];
             var Otr = document.createElement('tr');
-            for (var i = 0; i < 5; i++) {
+            for (var i = 0; i < 6; i++) {
                 var Otd = document.createElement('td');
                 var Op = document.createElement('p');
                 Op.innerHTML = Oarr[i].value;
