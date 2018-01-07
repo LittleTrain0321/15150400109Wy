@@ -187,8 +187,35 @@
 
 
 
-      
-    
+        //        添加图书功能
+       
+        var build = document.getElementById('build');
+        build.onclick = function() {
+            var table1 = document.getElementById('table1'); //获取书库列表
+            var value4 = document.getElementById('value4'); //获取添加书名
+            var value5 = document.getElementById('value5'); //获取添加的作者名字
+            var value6 = document.getElementById('value6'); //获取添加的出版社名字
+            var value7 = document.getElementById('value7'); //获取添加的数量
+            var value8 = document.getElementById('value8'); //获取添加的价格
+                
+            var Oarr = [value4,value5,value6,value7,value8];
+            var Otr = document.createElement('tr');
+            for (var i = 0; i < 5; i++) {
+                var Otd = document.createElement('td');
+                var Op = document.createElement('p');
+                Op.innerHTML = Oarr[i].value;
+//                alert(Op.innerHTML);
+                table1.appendChild(Otr);
+                Otr.appendChild(Otd);
+                Otd.appendChild(Op);
+            }
+            var Otd = document.createElement('td');
+            var Obtn = document.createElement('button');
+            Obtn.className = 'Odelete';
+            Obtn.innerHTML = '删除';
+            Otr.appendChild(Otd);
+            Otd.appendChild(Obtn);
+        }
     </script>
     
 </body>
