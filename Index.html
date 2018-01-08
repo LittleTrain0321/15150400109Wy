@@ -40,7 +40,15 @@
                                     <td>{{book.num}}</td>
                                     <td>{{book.price}}</td>
                                     <td>{{book.isbn}}</td>
-                                    
+                                    <template v-if="book.id%2==0">
+                                       <td class="text-left">
+                                           <button type="button" class="btn btn-success" class="del" @click="delBook(book)">删除
+                                           </button>
+                                            <button type="button" class="btn btn-success" @click="updateBook(book)">修改
+                                           </button>
+                                       </td>
+                                        
+                                    </template>
                                 </tr>
                             </tbody>
                     </table>
