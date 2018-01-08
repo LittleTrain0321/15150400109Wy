@@ -52,29 +52,30 @@ new Vue({
     },
         data:{
         book:{
-            id:"",
-            author:"",
             name:"",
-            price:""
+            author:"",
+            press:"",
+            num:"",
+            price:"",
+            isbn:""
         },
         books:[{
-            id:1,
-            author:"张三",
-            name:"张三自传漫画",
-            price:12.0
+            name:"白夜追凶",
+            author:"指纹",
+            press:"长江出版社",
+            num:"5",
+            price:"45",
+            isbn:"9787549253043"
         },
         {
-            id:2,
-            author:"李四",
-            name:"李四自传漫画",
-            price:12.0
+            name:"心理罪",
+            author:"雷米",
+            press:"重庆出版社",
+            num:"10",
+            price:"24",
+            isbn:"9787536691292"
         },
-        {
-            id:3,
-            author:"张三",
-            name:"张三自传漫画",
-            price:12.0
-        }
+       
         ],
         search:""
     }
