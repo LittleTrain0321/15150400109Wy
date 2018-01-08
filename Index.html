@@ -11,7 +11,8 @@
         #update-book {
             display: none;
         }
-        th{
+
+        th {
             width: 20px;
         }
     </style>
@@ -45,13 +46,13 @@
                             <template v-if="book.id%2==0">
                                   <td class="text-left">
                                         <button type="button" class="btn btn-success" class="del" @click="delBook(book)">删除</button>
-                                        <button type="button" class="btn btn-success" @click="updateBook(book)">修改</button>
+                                      
                                   </td>
                              </template>
                             <template v-else>
                                  <td class="text-left">
                                    <button type="button" class="btn btn-danger" class="del" @click="delBook(book)">删除</button> 
-                                    <button type="button" class="btn btn-danger" @click="updataBook(book)">修改</button>
+                                  
                                  </td>
                              </template>
                         </tr>
@@ -92,46 +93,17 @@
                     <div class="form-group">
                         <label for="isbn">ISBN</label>
                         <input type="text" class="form-control" id="name" v-model="book.isbn">
-                    </div> 
-                        <button class="btn btn-primary btn-block" v-on:click="addBook()">添加</button>
+                    </div>
+                    <button class="btn btn-primary btn-block" v-on:click="addBook()">添加</button>
                 </div>
-                
-                <div id="update-book">
-                    <h3>修改书籍</h3>
-                    <hr>
-                    <div class="form-group">
-                        <label for="name1">书名</label>
-                        <input type="text" class="form-control" id="name" v-model="book.name1">
-                    </div>
-                    <div class="form-group">
-                        <label for="author1">作者</label>
-                        <input type="text" class="form-control" id="name" v-model="book.author1">
-                    </div>
-                    <div class="form-group">
-                        <label for="press1">出版社</label>
-                        <input type="text" class="form-control" id="name" v-model="book.press1">
-                    </div>
-                    <div class="form-group">
-                        <label for="num1">数量</label>
-                        <input type="text" class="form-control" id="name" v-model="book.num1">
-                    </div>
-                    <div class="form-group">
-                        <label for="price1">价格</label>
-                        <input type="text" class="form-control" id="name" v-model="book.price1">
-                    </div>
-                    <div class="form-group">
-                        <label for="isbn1">ISBN</label>
-                        <input type="text" class="form-control" id="name" v-model="book.isbn1">
-                    </div> 
-                        <button class="btn btn-primary btn-block" @click="updataBook()">完成</button>
-                   
-                </div>
+
+
 
             </div>
         </div>
     </div>
-         <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
-         <script type="text/javascript" src="bmjs.js" ></script>
+    <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="bmjs.js"></script>
 </body>
 
 </html>
