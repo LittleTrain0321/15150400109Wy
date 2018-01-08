@@ -18,7 +18,33 @@
 <body>
     <div class="container">
         <div class="col-md-6 col-md-offset-3">
-            
+            <h1> 图书管理系统 </h1>
+                <div id="app">
+                    <table class="table table-hover">
+                        <br>
+                            <thead>
+                                <tr>
+                                    <th>书名</th>
+                                    <th>作者</th>
+                                    <th>出版社</th>
+                                    <th>数量</th>
+                                    <th>价格</th>
+                                    <th>ISBN</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="book in filterBooks">
+                                    <td>{{book.name}}</td>
+                                    <td>{{book.author}}</td>
+                                    <td>{{book.press}}</td>
+                                    <td>{{book.num}}</td>
+                                    <td>{{book.price}}</td>
+                                    <td>{{book.isbn}}</td>
+                                    
+                                </tr>
+                            </tbody>
+                    </table>
+                </div>
         </div>
     </div>
 </body>
