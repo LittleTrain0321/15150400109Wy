@@ -6,6 +6,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>document</title>
+    <script type="text/javascript" src="email.js"></script>
     <style>
         
         body{
@@ -30,7 +31,7 @@
     <br><br> 用户名：
     <input type="text" id="name">
     <br><br> 密&nbsp;&nbsp;&nbsp;码： <input type="text" id="pass">
-    <br><br>邮&nbsp;&nbsp;&nbsp;箱： <input type="text" id="email">
+    <br><br>邮&nbsp;&nbsp;&nbsp;箱：<input id="email_address" type="text" style="width: 130px;" /> <input type="button" value="验证" onclick="return check(document.getElementById('email_address').value);" />
     <br><br>
     <input style="width: 50px;" type="button" value="登录" id="log">
 
