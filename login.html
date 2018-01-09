@@ -1,1 +1,99 @@
-!
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>document</title>
+    <style>
+        
+        body{
+            background-color: #333333;
+             margin-top: 200px;
+            color: white;
+             text-align: center;
+        }
+        #div1{
+          border: 2px solid yellow;
+          width:500px;
+            height: 220px;
+           margin: 0 auto;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+  <h1>图书管理系统登录界面</h1>
+   <div id="div1">
+    <br><br> 用户名：
+    <input type="text" id="name">
+    <br><br> 密&nbsp;&nbsp;&nbsp;码： <input type="text" id="pass">
+    <br><br>邮&nbsp;&nbsp;&nbsp;箱： <input type="text" id="email">
+    <br><br>
+    <input style="width: 50px;" type="button" value="登录" id="log">
+
+    <input style="width: 50px;" type="button" value="注册" id="add">
+<h5>请先注册</h5>
+    </div>
+</body>
+<script>
+ 
+
+
+    var oLog = document.getElementById('log');
+    var oAdd = document.getElementById('add');
+    var oName = document.getElementById('name');
+    var oPass = document.getElementById('pass');
+   
+    oName.value = localStorage.userName;
+    oPass.value = localStorage.passWord;
+   
+
+    oAdd.onclick = function() {
+        var userName = oName.value;
+        var passWord = oPass.value;
+        var arr = [];
+
+        function findArr() {
+            for (var userName in localStorage) {
+                arr.push(localStorage[userName]);
+            }
+            return arr;
+        }
+        var d = findArr();
+        if (userName == d[1]) {
+            alert('账户已注册');
+            return false;
+        } else {
+            localStorage.userName = userName;
+            localStorage.passWord = passWord;
+            alert('注册成功，请登录');
+        }
+    };
+    oLog.onclick = function() {
+        var userName = oName.value;
+        var passWord = oPass.value;
+        var arr = [];
+
+        function findArr() {
+            for (var userName in localStorage) {
+                arr.push(localStorage[userName]);
+            }
+            return arr;
+        }
+        var d = findArr();
+        if (userName == d[1] && passWord == d[1]) {
+            alert('登录成功');
+            window.location.href='manage.html' 
+            //fn&&fn();    
+        } else if (userName == d[1] && passWord != d[0]) {
+            alert('密码错误');
+        } else if (userName != d[1]) {
+            alert('用户不存在');
+        }
+    };
+    
+</script>
+</html>

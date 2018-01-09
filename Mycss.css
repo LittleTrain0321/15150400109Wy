@@ -1,0 +1,129 @@
+ * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-size: cover;
+            background-color: #333333;
+        }
+
+        h1 {
+            color: white;
+            border-color:yellow;
+        }
+
+        .header {
+            margin: 10px auto;
+            /*            height: 100px;*/
+            width: 80%;
+            margin-bottom: 30px;
+
+
+        }
+
+        #find {
+            width: 50px;
+            height: 30px;
+            background-color: cornsilk;
+
+        }
+
+        .header input {
+
+            border: 1px solid black;
+            height: 30px;
+
+        }
+
+        buttton {
+            border: 3px solid #ccc;
+            height: 30px;
+            width: 30px;
+
+        }
+
+        .context {
+            margin: 10px auto;
+            border-right-color: cornsilk;
+            /*            height: 500px;*/
+            width: 80%;
+            color: aliceblue;
+        }
+
+        .footer {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background-color: rgba(100, 100, 100, 0.7);
+            display: none;
+            height: 100%;
+            width: 100%;
+        }
+
+        .text1 {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+            margin: auto;
+            height: 220px;
+            width: 600px;
+            background-color: lightgoldenrodyellow;
+
+            padding: 20px;
+        }
+
+        #build {
+            position: absolute;
+            right: 40px;
+            bottom: 40px;
+            height: 30px;
+            width: 40px;
+            border: 1px solid black;
+            background-color: cornsilk;
+
+        }
+
+        .Oinpt {
+
+            border: 1px solid #cfcfff;
+            height: 30px;
+            margin: 20px;
+        }
+
+        #table1 {
+            border: 1px solid #ff0;
+            width: 80%;
+            text-align: center;
+        }
+
+        #table1 th {
+            font-size: 2vw;
+            font-weight: bold;
+        }
+
+        #table1 tr td button {
+
+            height: 20px;
+            width: 40px;
+            border: 1px solid #fff;
+            background-color: cornsilk;
+
+        }
+
+        #add {
+
+            height: 30px;
+            width: 70px;
+            border: 3px solid white;
+            background-color: cornsilk;
+            margin-left: 73%;
+            margin-top: 10px;
+        }
+
+        .findout {
+            color: red;
+            background-color: #fff;
+        }

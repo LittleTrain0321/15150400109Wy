@@ -4,148 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <title>图书管理系统</title>
+    <link rel="stylesheet" href="Mycss.css">
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-        }
-
-        body {
-            background-size: cover;
-            background-color: #333333;
-        }
-
-        h1 {
-            color: azure;
-        }
-
-        .header {
-            margin: 10px auto;
-            /*            height: 100px;*/
-            width: 80%;
-            margin-bottom: 30px;
-
-
-        }
-
-        #find {
-            width: 50px;
-            height: 30px;
-            background-color: cornsilk;
-
-        }
-
-        .header input {
-
-            border: 1px solid black;
-            height: 30px;
-
-        }
-
-        buttton {
-            border: 3px solid #ccc;
-            height: 30px;
-            width: 30px;
-
-        }
-
-        .context {
-            margin: 10px auto;
-            border-right-color: cornsilk;
-            /*            height: 500px;*/
-            width: 80%;
-            color: aliceblue;
-        }
-
-        .footer {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            background-color: rgba(100, 100, 100, 0.7);
-            display: none;
-            height: 100%;
-            width: 100%;
-        }
-
-        .text1 {
-            position: fixed;
-            top: 0px;
-            left: 0px;
-            right: 0px;
-            bottom: 0px;
-            margin: auto;
-            height: 220px;
-            width: 600px;
-            background-color: lightgoldenrodyellow;
-
-            padding: 20px;
-        }
-
-        #build {
-            position: absolute;
-            right: 40px;
-            bottom: 40px;
-            height: 30px;
-            width: 60px;
-            border: 1px solid black;
-            background-color: cornsilk;
-
-        }
-
-        .Oinpt {
-
-            border: 1px solid #cfcfff;
-            height: 30px;
-            margin: 20px;
-        }
-
-        #table1 {
-            border: 1px solid #ff0;
-            width: 80%;
-            text-align: center;
-        }
-
-        #table1 th {
-            font-size: 2vw;
-            font-weight: bold;
-        }
-
-        #table1 tr td button {
-
-            height: 20px;
-            width: 40px;
-            border: 1px solid #fff;
-            background-color: cornsilk;
-
-        }
-
-        #add {
-
-            height: 30px;
-            width: 70px;
-            border: 3px solid white;
-            background-color: cornsilk;
-            margin-left: 73%;
-            margin-top: 10px;
-        }
-
-        .findout {
-            color: red;
-            background-color: #fff;
-        }
+       
     </style>
 </head>
 
 <body>
     <!--   搜索栏-->
     <div class="header">
-        <h1>请填写你要搜索的图书</h1>
+        <h1 > 图书管理系统</h1>
+        <br>
         <input id="value1" type="text" placeholder="请输入书名">
         <input id="value2" type="text" placeholder="请输入作者">
         <input id="value3" type="text" placeholder="请输入出版社">
         <button id="find" onclick="search()">搜索</button>
 
-
+   &nbsp;&nbsp;   <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"><img style="position: relative;right: 0px;"  border="0" src="QQicon.png" alt="点击这里联系作者" title="点击这里联系作者"/></a>
     </div>
     <!--   搜索栏-->
     <div class="context">
@@ -227,7 +102,7 @@
                     <p class="press">书包网</p>
                 </td>
                 <td>
-                    <p class="price">3.5.00￥</p>
+                    <p class="price">3.50￥</p>
                 </td>
                 <td><button class="Odelete" onclick="Oremove()">删除</button></td>
             </tr>
@@ -250,108 +125,7 @@
 
     </div>
 
-    <script>
-        //        添加图书功能
-        var footer = document.getElementsByClassName('footer');
-        var build = document.getElementById('build');
-        var add = document.getElementById('add');
-
-        add.onclick = function() {
-
-            footer[0].style.display = 'block';
-
-        }
-
-        function build1() {
-            var table1 = document.getElementById('table1'); //获取书库列表
-            var value4 = document.getElementById('value4'); //获取添加书名
-            var value5 = document.getElementById('value5'); //获取添加的作者名字
-            var value6 = document.getElementById('value6'); //获取添加的出版社名字
-            var value7 = document.getElementById('value7'); //获取添加的数量
-            var value8 = document.getElementById('value8'); //获取添加的价格
-
-            var Oarr = [value4, value5, value6, value7, value8];
-            var Oclass = ['book', 'author', 'Onumber', 'press', 'price'];
-            var Otr = document.createElement('tr');
-            for (var i = 0; i < 5; i++) {
-
-                if (Oarr[i].value == '') {
-                    alert('请填写完整。');
-                    return 1;
-                } else {
-                    var Otd = document.createElement('td');
-                    var Op = document.createElement('p');
-                    Op.innerHTML = Oarr[i].value;
-                    //                alert(Op.innerHTML);
-                    Op.className = Oclass[i];
-                    table1.appendChild(Otr);
-                    Otr.appendChild(Otd);
-                    Otd.appendChild(Op);
-                }
-
-            }
-
-            var Otd = document.createElement('td');
-            var Obtn = document.createElement('button');
-            Otd.innerHTML = "<button class='Odelete' onclick='Oremove()'>删除</button>"
-
-            Otr.appendChild(Otd);
-            footer[0].style.display = 'none';
-
-            Oremove();
-        }
-
-        //        删除功能
-
-        function Oremove() {
-            var Odelete = document.getElementsByClassName('Odelete');
-
-            for (var j = 0; j < Odelete.length; j++) {
-                Odelete[j].onclick = (function() {
-                    return function() {
-                        this.parentNode.parentNode.innerHTML = '';
-                    }
-                })(j);
-
-            }
-
-        }
-        Oremove();
-        //        搜索功能
-        var find = document.getElementById('find');
-        //        搜索点击事件
-        function search() {
-            //        获取搜索内容
-            var value1 = document.getElementById('value1'); //获取输入的书名
-            var value2 = document.getElementById('value2'); //获取输入的作者名
-            var value3 = document.getElementById('value3'); //获取输入的出版社名
-            var book = document.getElementsByClassName('book'); //获取书库书名       
-            var author = document.getElementsByClassName('author'); //获取书库作者名
-            var chubanshe = document.getElementsByClassName('press'); //获取书库出版社名
-            //                     alert(book.length);
-            //遍历书库
-            for (var i = 0; i < book.length; i++) {
-
-                if (value1.value == book[i].innerHTML) {
-                    book[i].style.color = 'red';
-                    book[i].style.backgroundColor = 'white';
-                } else if (value2.value == author[i].innerHTML) {
-                    author[i].style.color = 'red';
-                    author[i].style.backgroundColor = 'white';
-                } else if (value3.value == chubanshe[i].innerHTML) {
-                    chubanshe[i].style.color = 'red';
-                    chubanshe[i].style.backgroundColor = 'white';
-
-
-                } else {
-                    book[i].parentNode.parentNode.style.display = 'none';
-                }
-
-            }
-            value1.value = '';
-            value2.value = '';
-            value3.value = '';
-        }
+    <script type="application/javascript" src="Myjs.js">
     </script>
 </body>
 
