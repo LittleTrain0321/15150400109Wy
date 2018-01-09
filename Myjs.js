@@ -80,14 +80,14 @@
             for (var i = 0; i < book.length; i++) {
 
                 if (value1.value == book[i].innerHTML) {
-                    book[i].style.color = 'red';
-                    book[i].style.backgroundColor = 'white';
+                    
+                    book[i].style.border = '1px solid yellow';
                 } else if (value2.value == author[i].innerHTML) {
-                    author[i].style.color = 'red';
-                    author[i].style.backgroundColor = 'white';
+                  
+                    author[i].style.border = '1px solid yellow';
                 } else if (value3.value == chubanshe[i].innerHTML) {
-                    chubanshe[i].style.color = 'red';
-                    chubanshe[i].style.backgroundColor = 'white';
+                   
+                    chubanshe[i].style.border = '1px solid yellow';
 
 
                 } else {
