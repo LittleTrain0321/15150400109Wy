@@ -5,122 +5,119 @@
     <meta charset="UTF-8">
     <title>图书管理系统</title>
     <link rel="stylesheet" href="Mycss.css">
-    <style>
-       
-    </style>
 </head>
 
 <body>
- 
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-   <div style="text-align: center;margin:0 auto;">
-    <!--   搜索栏-->
-    <div class="header">
-        <h1 > 图书管理系统</h1>
-        <br>
-        <input id="value1" type="text" placeholder="请输入书名">
-        <input id="value2" type="text" placeholder="请输入作者">
-        <input id="value3" type="text" placeholder="请输入出版社">
-        <button id="find" onclick="search()">搜索</button>
 
-   &nbsp;&nbsp;   <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"><img style="position: relative;right: 0px;"  border="0" src="QQicon.png" alt="点击这里联系作者" title="点击这里联系作者"/></a>
-    </div>
-    <!--   搜索栏-->
-    <div class="context">
-        <!--       书库列表-->
-        <table id="table1">
-            <tr>
-                <th>书名</th>
-                <th>作者名</th>
-                <th>数量</th>
-                <th>出版社</th>
-                <th>单价</th>
-            </tr>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="text-align: center;margin:0 auto;">
+        <!--   搜索栏-->
+        <div class="header">
+            <h1> 图书管理系统</h1>
+            <br>
+            <input id="value1" type="text" placeholder="请输入书名">
+            <input id="value2" type="text" placeholder="请输入作者">
+            <input id="value3" type="text" placeholder="请输入出版社">
+            <button id="find" onclick="search()">搜索</button> &nbsp;&nbsp; 
+            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes">
+            <img style="position: relative;right: 0px;"  border="0" src="QQicon.png" alt="点击这里联系作者" title="点击这里联系作者"/></a>
+        </div>
+        <!--   搜索栏-->
+        <div class="context">
+            <!--       书库列表-->
+            <table id="table1">
+                <tr>
+                    <th>书名</th>
+                    <th>作者名</th>
+                    <th>数量</th>
+                    <th>出版社</th>
+                    <th>单价</th>
+                </tr>
 
-            <tr>
-                <td>
-                    <p class="book">白夜追凶</p>
-                </td>
-                <td>
-                    <p class="author">指纹</p>
-                </td>
-                <td>
-                    <p class="Onumber">1</p>
-                </td>
-                <td>
-                    <p class="press">长江出版社</p>
-                </td>
-                <td>
-                    <p class="price">25.00</p>
-                </td>
-                <td><button class="Odelete" onclick="Oremove()">删除</button></td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="book">乔布斯传</p>
-                </td>
-                <td>
-                    <p class="author">王咏刚</p>
-                </td>
-                <td>
-                    <p class="Onumber">12</p>
-                </td>
-                <td>
-                    <p class="press">上海财经大学出版社</p>
-                </td>
-                <td>
-                    <p class="price">28.00</p>
-                </td>
-                <td><button class="Odelete" onclick="Oremove()">删除</button></td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="book">挪威的森林</p>
-                </td>
-                <td>
-                    <p class="author">村上村树</p>
-                </td>
-                <td>
-                    <p class="Onumber">14</p>
-                </td>
-                <td>
-                    <p class="press">上海译文出版社</p>
-                </td>
-                <td>
-                    <p class="price">23.00</p>
-                </td>
-                <td><button class="Odelete" onclick="Oremove()">删除</button></td>
-            </tr>
-            <tr>
-                <td>
-                    <p class="book">追风筝的人</p>
-                </td>
-                <td>
-                    <p class="author">卡勒德·胡赛尼</p>
-                </td>
-                <td>
-                    <p class="Onumber">2</p>
-                </td>
-                <td>
-                    <p class="press">上海人民出版社</p>
-                </td>
-                <td>
-                    <p class="price">29.00</p>
-                </td>
-                <td><button class="Odelete" onclick="Oremove()">删除</button></td>
-            </tr>
-        </table>
-        <!--       书库列表-->
-        <button id="add">添加</button>
-    </div>
-    
-    
+                <tr>
+                    <td>
+                        <p class="book">白夜追凶</p>
+                    </td>
+                    <td>
+                        <p class="author">指纹</p>
+                    </td>
+                    <td>
+                        <p class="Onumber">1</p>
+                    </td>
+                    <td>
+                        <p class="press">长江出版社</p>
+                    </td>
+                    <td>
+                        <p class="price">25.00</p>
+                    </td>
+                    <td><button class="Odelete" onclick="Oremove()">删除</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="book">乔布斯传</p>
+                    </td>
+                    <td>
+                        <p class="author">王咏刚</p>
+                    </td>
+                    <td>
+                        <p class="Onumber">12</p>
+                    </td>
+                    <td>
+                        <p class="press">上海财经大学出版社</p>
+                    </td>
+                    <td>
+                        <p class="price">28.00</p>
+                    </td>
+                    <td><button class="Odelete" onclick="Oremove()">删除</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="book">挪威的森林</p>
+                    </td>
+                    <td>
+                        <p class="author">村上村树</p>
+                    </td>
+                    <td>
+                        <p class="Onumber">14</p>
+                    </td>
+                    <td>
+                        <p class="press">上海译文出版社</p>
+                    </td>
+                    <td>
+                        <p class="price">23.00</p>
+                    </td>
+                    <td><button class="Odelete" onclick="Oremove()">删除</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <p class="book">追风筝的人</p>
+                    </td>
+                    <td>
+                        <p class="author">卡勒德·胡赛尼</p>
+                    </td>
+                    <td>
+                        <p class="Onumber">2</p>
+                    </td>
+                    <td>
+                        <p class="press">上海人民出版社</p>
+                    </td>
+                    <td>
+                        <p class="price">29.00</p>
+                    </td>
+                    <td><button class="Odelete" onclick="Oremove()">删除</button></td>
+                </tr>
+            </table>
+            <!--       书库列表-->
+            <button id="add">添加</button>
+        </div>
+
+
     </div>
     <div class="footer">
         <div class="text1">
@@ -138,6 +135,8 @@
     </div>
 
     <script type="application/javascript" src="Myjs.js">
+
+
     </script>
 </body>
 
