@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   
+   
+   
+   
+   <input type="text"id="text1" value="0">
+   <button onclick="as()">验证</button>
+    <script>
+      function test()
+      {
+              var temp = document.getElementById("text1");
+            //对电子邮件的验证
+              var myreg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+          
+              if(temp!==myreg)
+              {
+                   alert('提示\n\n请输入有效的E_mail！');
+                   myreg.focus();
+                  return false;
+             }else{
+                 
+                 alert("ok");
+             }
+          }
+        function as(){
+            alert("aa");
+        }
+    
+    </script>
+</body>
+</html>
+     
+
+      
+    
