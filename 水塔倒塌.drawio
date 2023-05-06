@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T06:59:02.094Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="st_mL9lpCjmfqLRTQjzT" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-06T08:07:31.718Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="VKKOudBtNxPaLboxiABI" version="21.2.9" type="github">
   <diagram name="第 1 页" id="W2D0JeOxkUditP7dJbRR">
     <mxGraphModel dx="1185" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -20,7 +20,7 @@
             <mxPoint x="440" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kBFMugo4rH3bvR0RnfEy-2" value="Trigger触发&lt;br&gt;play Montage" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="kBFMugo4rH3bvR0RnfEy-2" value="Trigger触发" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="390" y="65" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kBFMugo4rH3bvR0RnfEy-8" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
@@ -38,7 +38,7 @@
         <mxCell id="CRztdj-j_MXvcmptn2uz-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="CRztdj-j_MXvcmptn2uz-4" target="kBFMugo4rH3bvR0RnfEy-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CRztdj-j_MXvcmptn2uz-4" value="水塔" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="CRztdj-j_MXvcmptn2uz-4" value="水塔倒塌结束收窄空间&lt;br&gt;+烟尘特效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="368" y="322" width="144" height="60" as="geometry" />
         </mxCell>
       </root>
