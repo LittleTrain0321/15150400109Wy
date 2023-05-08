@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-05-06T08:52:08.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="tZvDm_w_7zbovzVQfoc-" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T12:24:29.893Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="bDlV8D8EVBX_Q9TnK58m" version="21.2.9" type="github">
   <diagram name="第 1 页" id="MW1W9TmaN3gQ6CsoGrh2">
-    <mxGraphModel dx="785" dy="642" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="588" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3c8UgxL4sAxLBayGxIpp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="3c8UgxL4sAxLBayGxIpp-2" target="3c8UgxL4sAxLBayGxIpp-3">
+        <mxCell id="3c8UgxL4sAxLBayGxIpp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="3c8UgxL4sAxLBayGxIpp-2" target="3c8UgxL4sAxLBayGxIpp-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3c8UgxL4sAxLBayGxIpp-2" value="玩家角色离开Trigger" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="3c8UgxL4sAxLBayGxIpp-2" value="玩家角色离开Trigger" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="410" y="160" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3c8UgxL4sAxLBayGxIpp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3c8UgxL4sAxLBayGxIpp-3" target="3c8UgxL4sAxLBayGxIpp-5">
+        <mxCell id="3c8UgxL4sAxLBayGxIpp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="3c8UgxL4sAxLBayGxIpp-3" target="3c8UgxL4sAxLBayGxIpp-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3c8UgxL4sAxLBayGxIpp-3" value="残破的楼梯平台&lt;br&gt;自由落体" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="3c8UgxL4sAxLBayGxIpp-3" value="残破的ZLP吊篮&lt;br&gt;自由落体" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="400" y="256" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3c8UgxL4sAxLBayGxIpp-5" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="3c8UgxL4sAxLBayGxIpp-5" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="410" y="361" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
