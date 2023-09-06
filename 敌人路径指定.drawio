@@ -1,16 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T08:08:52.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="W6KYq4RITirmmMSQzQ6g" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T11:42:50.365Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jzyxIpaD8aupzXslHAxz" version="21.7.2" type="github">
   <diagram name="第 1 页" id="qsnWlvJeW-6cO8qMe_v3">
-    <mxGraphModel dx="2963" dy="2006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="1430" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zA4d7zvXf4YAbisD_RFX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-1" target="zA4d7zvXf4YAbisD_RFX-9" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="297.5" y="-120" as="targetPoint" />
+            <mxPoint x="297.5" y="-215" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-1" value="敌人出生" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-230" width="100" height="60" as="geometry" />
+          <mxGeometry x="250" y="-325" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-6" target="zA4d7zvXf4YAbisD_RFX-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -33,7 +33,7 @@
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-9" target="Sy0rRWAcBeGMcVVUymvI-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="160" as="targetPoint" />
+            <mxPoint x="300" y="65" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-13" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="zA4d7zvXf4YAbisD_RFX-10" vertex="1" connectable="0">
@@ -44,7 +44,7 @@
         <mxCell id="zA4d7zvXf4YAbisD_RFX-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-9" target="zA4d7zvXf4YAbisD_RFX-6" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="520" y="-115" />
+              <mxPoint x="520" y="-210" />
               <mxPoint x="520" y="300" />
               <mxPoint x="300" y="300" />
             </Array>
@@ -56,13 +56,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-9" value="是否跑位" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="250" y="-140" width="100" height="50" as="geometry" />
+          <mxGeometry x="250" y="-235" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="zA4d7zvXf4YAbisD_RFX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-14" target="zA4d7zvXf4YAbisD_RFX-6" edge="1">
+        <mxCell id="zA4d7zvXf4YAbisD_RFX-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Sy0rRWAcBeGMcVVUymvI-44" target="zA4d7zvXf4YAbisD_RFX-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-46" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zA4d7zvXf4YAbisD_RFX-22">
+          <mxGeometry x="-0.4571" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-14" value="按照指定方式&lt;br&gt;沿指定路径点&lt;br&gt;顺次移动" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
-          <mxGeometry x="250" y="225" width="100" height="50" as="geometry" />
+          <mxGeometry x="250" y="130" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="zA4d7zvXf4YAbisD_RFX-15" target="zA4d7zvXf4YAbisD_RFX-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -89,7 +94,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-15" value="跑位方式&lt;br&gt;走/跑/爬？" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="250" y="75" width="100" height="50" as="geometry" />
+          <mxGeometry x="250" y="-20" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zA4d7zvXf4YAbisD_RFX-19" value="配置项" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="30" y="-210" width="100" height="50" as="geometry" />
@@ -163,7 +168,7 @@
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-5" value="跑位阶段" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="70" y="80" width="20" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="Sy0rRWAcBeGMcVVUymvI-6" value="巡逻阶段" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-6" value="巡逻待机" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="70" y="390" width="20" height="270" as="geometry" />
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sy0rRWAcBeGMcVVUymvI-8" target="zA4d7zvXf4YAbisD_RFX-15">
@@ -183,13 +188,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-8" value="跑位过程遇敌&lt;br&gt;是否忽略" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="230" y="-40" width="140" height="60" as="geometry" />
+          <mxGeometry x="230" y="-135" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-9" value="进战" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="970" y="130" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-15" value="执行AI战斗行为" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="385" y="30" width="100" height="60" as="geometry" />
+          <mxGeometry x="385" y="-65" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Sy0rRWAcBeGMcVVUymvI-16" target="Sy0rRWAcBeGMcVVUymvI-17">
           <mxGeometry relative="1" as="geometry" />
@@ -257,6 +262,23 @@
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-36" value="是否直接进战" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="515" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="zA4d7zvXf4YAbisD_RFX-14" target="Sy0rRWAcBeGMcVVUymvI-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="180" as="sourcePoint" />
+            <mxPoint x="300" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Sy0rRWAcBeGMcVVUymvI-44" target="Sy0rRWAcBeGMcVVUymvI-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-48" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Sy0rRWAcBeGMcVVUymvI-47">
+          <mxGeometry x="-0.7736" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-44" value="是否发现敌人" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="252.5" y="210" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
