@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T02:01:51.223Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="KMu08cYZgJz1XVj3Dvd7" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T03:39:14.996Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="-SVh9bCG5LR6JlDKdXvq" version="21.7.2" type="github">
   <diagram name="第 1 页" id="qsnWlvJeW-6cO8qMe_v3">
-    <mxGraphModel dx="2393" dy="3205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
+    <mxGraphModel dx="4391" dy="2129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -465,6 +465,9 @@
         </mxCell>
         <mxCell id="Sy0rRWAcBeGMcVVUymvI-123" value="进战" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#aeaeae;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="-769.9" y="244.72000000000003" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Sy0rRWAcBeGMcVVUymvI-128" value="1.具体操作细化&lt;br&gt;2.参考cryengine&lt;br&gt;3.数据底层继续使用tag&lt;br&gt;4.行为树承载哪些" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="-180" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
