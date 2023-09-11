@@ -1,9 +1,84 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:04:30.096Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.7.2" etag="FNx74QX3Aa0ecYxQnVqX" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T08:14:43.419Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="TE79Gp58v-ZU4I5aYowg" version="21.7.2" type="github">
   <diagram name="第 1 页" id="D285-8vsSk2MO_wofazS">
-    <mxGraphModel>
+    <mxGraphModel dx="1934" dy="838" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IURI51ZscIW6ofg568Gq-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-2" target="IURI51ZscIW6ofg568Gq-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-2" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="70" y="190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-3" target="IURI51ZscIW6ofg568Gq-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="670" />
+              <mxPoint x="220" y="670" />
+              <mxPoint x="220" y="260" />
+              <mxPoint x="120" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-3" value="触发补充&lt;br&gt;连接刷怪节点？" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="70" y="595" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-4" target="IURI51ZscIW6ofg568Gq-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-14" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IURI51ZscIW6ofg568Gq-12">
+          <mxGeometry x="-0.4087" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-4" value="判断指定区域内&lt;br&gt;剩余目标敌人数量&amp;lt;=N" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-6" value="在关卡编辑器中作为节点，可以由条件/Trigger等触发" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="190" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-7" value="区域：不配置则默认全图，配置了则在指定Volume内选取&lt;br&gt;目标敌人：指定Tag的目标敌人、当前所有敌人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="280" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-10" target="IURI51ZscIW6ofg568Gq-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-13" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IURI51ZscIW6ofg568Gq-11">
+          <mxGeometry x="-0.3587" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-10" target="IURI51ZscIW6ofg568Gq-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-25" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IURI51ZscIW6ofg568Gq-24">
+          <mxGeometry x="-0.4101" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-10" value="不满足停止&lt;br&gt;补充条件" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="395" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-15" value="停止补充条件：&lt;br&gt;1.指定tag怪物血量剩余比例&lt;br&gt;2.已经刷出的补充敌人数量&amp;gt;=N&lt;br&gt;3.已刷新次数&amp;gt;=N&lt;br&gt;4.其他可能的条件：开门/关门等" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="370" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IURI51ZscIW6ofg568Gq-16" target="IURI51ZscIW6ofg568Gq-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-19" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IURI51ZscIW6ofg568Gq-17">
+          <mxGeometry x="-0.1377" y="-4" relative="1" as="geometry">
+            <mxPoint x="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-16" value="CD是否冷却" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="65" y="490" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-18" value="补充CD 默认0&lt;br&gt;即条件满足就补&lt;br&gt;如果配置了CD，则需要条件和CD同时满足才会补充" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="490" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IURI51ZscIW6ofg568Gq-22" value="结束补充" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="395" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
