@@ -1,9 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T03:53:23.654Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="rDXxR3ru-Sc61ZPv3VeP" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T06:41:29.213Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="JjQECimynbpOS3UFixET" version="21.7.4" type="github">
   <diagram name="第 1 页" id="1crBaB3OvEjm2Fq8ciha">
-    <mxGraphModel dx="1841" dy="1006" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1270" dy="1094" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-25" target="vGezVRdVfJBSmVE-hKYB-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-27" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGezVRdVfJBSmVE-hKYB-5">
+          <mxGeometry x="-0.0442" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-1" value="原地循环播放&lt;br&gt;指定害怕动作" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="474" y="-61" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-3" target="vGezVRdVfJBSmVE-hKYB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="221.0075225830078" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-16" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGezVRdVfJBSmVE-hKYB-7">
+          <mxGeometry x="-0.4688" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-25" target="vGezVRdVfJBSmVE-hKYB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-20" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGezVRdVfJBSmVE-hKYB-17">
+          <mxGeometry x="-0.7791" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-3" value="是否触发抱头" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="462" y="96" width="124" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-4" value="1.被瞄准&lt;br&gt;2.是否听到枪声" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="275" y="101.75" width="140" height="53.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-8" target="vGezVRdVfJBSmVE-hKYB-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="327" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="524" y="312" />
+              <mxPoint x="439" y="312" />
+              <mxPoint x="439" y="-31" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-23" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGezVRdVfJBSmVE-hKYB-14">
+          <mxGeometry x="-0.1723" y="3" relative="1" as="geometry">
+            <mxPoint x="88" y="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-8" target="vGezVRdVfJBSmVE-hKYB-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-22" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vGezVRdVfJBSmVE-hKYB-21">
+          <mxGeometry x="-0.6114" y="-1" relative="1" as="geometry">
+            <mxPoint x="-14" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-8" value="所属区域是否清空" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="462" y="199" width="124" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-15" value="触发逃跑" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="706" y="98.5" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-18" value="跑步移动至指定区域，然后销毁" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="845" y="100" width="188" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vGezVRdVfJBSmVE-hKYB-1" target="vGezVRdVfJBSmVE-hKYB-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524" y="-1" as="sourcePoint" />
+            <mxPoint x="524" y="88" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGezVRdVfJBSmVE-hKYB-25" value="是否被击中" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="462" y="24" width="124" height="34" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
