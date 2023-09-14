@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-09-14T03:17:28.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="21.7.4" etag="HXJRhJyDAnlQLraYQY2y" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-14T03:59:36.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="gBynZpbMQr0Tkt9BMsxl" version="21.7.4" type="github">
   <diagram name="第 1 页" id="GCo1m2KMTAwo-THV0s5c">
-    <mxGraphModel>
+    <mxGraphModel dx="1841" dy="1006" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="f7O8d5Pusr19MVT0l1uw-1" target="f7O8d5Pusr19MVT0l1uw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-1" value="点击传送按钮" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="219" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f7O8d5Pusr19MVT0l1uw-2" target="f7O8d5Pusr19MVT0l1uw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f7O8d5Pusr19MVT0l1uw-6">
+          <mxGeometry x="0.0001" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="f7O8d5Pusr19MVT0l1uw-2" target="f7O8d5Pusr19MVT0l1uw-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f7O8d5Pusr19MVT0l1uw-9">
+          <mxGeometry x="-0.3536" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-2" value="是否已选点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="338" width="100" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-5" value="提示：请先在地图选择目标点" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="332" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="f7O8d5Pusr19MVT0l1uw-8" target="f7O8d5Pusr19MVT0l1uw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="f7O8d5Pusr19MVT0l1uw-8" target="f7O8d5Pusr19MVT0l1uw-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-17" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f7O8d5Pusr19MVT0l1uw-16">
+          <mxGeometry x="-0.4014" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-8" value="当前点位&lt;br&gt;是否合法" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="466" width="100" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-11" value="当前选点没有判断逻辑&lt;br&gt;可以选地图外空白处&lt;br&gt;所以需要在传送前判断&lt;br&gt;最起码保证有地面&lt;br&gt;或者最好是必须在路面上这种" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="788" y="460" width="165" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-13" value="提示：当前目标点不合法，请更换" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="565" y="460" width="189" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f7O8d5Pusr19MVT0l1uw-15" value="传送到目标位置&lt;br&gt;并贴地" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="395" y="577" width="100" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
