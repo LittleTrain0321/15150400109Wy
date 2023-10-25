@@ -1,9 +1,151 @@
-<mxfile host="app.diagrams.net" modified="2023-10-25T11:34:10.467Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.0.8" etag="aOJ0SdYFiAV5tVtDgTcj" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-25T11:50:55.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="1Z0o3pfT_ih_ybJ-RR43" version="22.0.8" type="github">
   <diagram name="第 1 页" id="r-FKMfWhN-1krSnUlQmG">
-    <mxGraphModel>
+    <mxGraphModel dx="3347" dy="2229" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-3" target="sNlm8o2b7IZtp_pm42Wh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-3" value="1-开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="-160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-4" target="sNlm8o2b7IZtp_pm42Wh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-32" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sNlm8o2b7IZtp_pm42Wh-8">
+          <mxGeometry x="-0.3296" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-4" value="前置条件是否满足" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-27" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-7" target="sNlm8o2b7IZtp_pm42Wh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-7" value="生成精英队长" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="96" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-9" target="sNlm8o2b7IZtp_pm42Wh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-9" value="精英队长端着榴弹枪&lt;br&gt;走到指定位置&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="355" y="372" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-10" target="sNlm8o2b7IZtp_pm42Wh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-10" value="2L开门" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="234" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-13" value="看如何获取位置" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="382" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-14" target="sNlm8o2b7IZtp_pm42Wh-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-14" value="喊话：&lt;strong&gt;没想到你还能闯到这来，但你没法再往前了！&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="510" width="315" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-16" target="sNlm8o2b7IZtp_pm42Wh-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-16" value="精英队长对着玩家的位置连续发射三发榴弹，分散分布。" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="660" width="165" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-18" target="sNlm8o2b7IZtp_pm42Wh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-18" value="喊话：&lt;strong&gt;所有人都出动，不能让他接近老板！&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="262.5" y="820" width="315" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-21" target="sNlm8o2b7IZtp_pm42Wh-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-21" value="然后转身，大摇大摆的走回去" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="970" width="165" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-23" target="sNlm8o2b7IZtp_pm42Wh-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-23" value="2L关门" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1120" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-25" value="2-开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-160" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-26" target="sNlm8o2b7IZtp_pm42Wh-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-26" value="走到指定位置销毁精英保安" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-28" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1430" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-30" target="sNlm8o2b7IZtp_pm42Wh-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-38" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="sNlm8o2b7IZtp_pm42Wh-37">
+          <mxGeometry x="-0.2919" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-30" value="前置条件是否满足" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="790" y="-27" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-25" target="sNlm8o2b7IZtp_pm42Wh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-33" target="sNlm8o2b7IZtp_pm42Wh-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-33" value="生成精英队长" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="96" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-39" target="sNlm8o2b7IZtp_pm42Wh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-39" value="喊话：&lt;strong&gt;没想到你还有两下子，但你这次真的死到临头了！&lt;/strong&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="702.5" y="234" width="315" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-41" target="sNlm8o2b7IZtp_pm42Wh-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-41" value="1L开门" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="810" y="382" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-43" target="sNlm8o2b7IZtp_pm42Wh-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-43" value="精英队长直接进战" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="796.25" y="550" width="127.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-45" target="sNlm8o2b7IZtp_pm42Wh-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-45" value="&lt;strong&gt;当玩家在掩体躲着超过3s时&lt;br&gt;&lt;/strong&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="760" y="700" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="sNlm8o2b7IZtp_pm42Wh-47" target="sNlm8o2b7IZtp_pm42Wh-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-47" value="喊话：随机喊话" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="796.25" y="820" width="127.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-49" value="&lt;p&gt;&lt;strong&gt;1.出来啊！怎么躲起来了！&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;2.刚才的气势呢？怎么不敢露头了？！&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;3.缩头乌龟！出来面对我！&lt;/strong&gt;&lt;/p&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="820" width="240" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-50" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="810" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-52" value="关卡负责" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-170" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sNlm8o2b7IZtp_pm42Wh-53" value="AI负责" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="670" y="-170" width="100" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
