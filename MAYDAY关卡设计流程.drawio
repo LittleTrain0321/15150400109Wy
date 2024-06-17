@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T16:36:28.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="WSS_f8KCeqUj_pnzHdWl" version="24.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-17T16:52:12.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="gFgi-gbydq-jqLnHwzLq" version="24.5.4" type="github">
   <diagram name="第 1 页" id="3R2qnAobjluo3bO9rf-G">
     <mxGraphModel dx="1834" dy="1138" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,8 +64,10 @@
         <mxCell id="w4xETRC22-t7bHUaf4wi-21" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="303" y="-53" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4xETRC22-t7bHUaf4wi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-22" target="w4xETRC22-t7bHUaf4wi-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w4xETRC22-t7bHUaf4wi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-22" target="w4xETRC22-t7bHUaf4wi-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="576" y="-38" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-22" value="室内白盒搭建" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="-115" width="120" height="60" as="geometry" />
@@ -92,7 +94,7 @@
           <mxGeometry x="303" y="92.5" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-38" value="&lt;b&gt;音乐音效&lt;/b&gt;&lt;div&gt;BGM&lt;/div&gt;&lt;div&gt;室外3D音效&lt;/div&gt;&lt;div&gt;室内3D音效&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="947" y="-124.25" width="120" height="78.5" as="geometry" />
+          <mxGeometry x="864" y="-121" width="120" height="78.5" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-40" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="474" y="83.25" width="60" height="30" as="geometry" />
@@ -103,8 +105,10 @@
         <mxCell id="w4xETRC22-t7bHUaf4wi-41" value="跑图优化" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="810" y="14" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="w4xETRC22-t7bHUaf4wi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-42" target="w4xETRC22-t7bHUaf4wi-48">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="w4xETRC22-t7bHUaf4wi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-42" target="w4xETRC22-t7bHUaf4wi-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="586" y="-303" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-42" value="随机搭配方案&lt;div&gt;跟进制作&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="444" y="-244" width="120" height="60" as="geometry" />
@@ -115,11 +119,11 @@
         <mxCell id="w4xETRC22-t7bHUaf4wi-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-48" target="w4xETRC22-t7bHUaf4wi-41">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w4xETRC22-t7bHUaf4wi-48" value="白盒房间随机配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="615" y="-115" width="120" height="60" as="geometry" />
+        <mxCell id="w4xETRC22-t7bHUaf4wi-48" value="房间随机规则配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="-244" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-51" value="TD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="645" y="-55" width="60" height="30" as="geometry" />
+          <mxGeometry x="645" y="-184" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-33" target="w4xETRC22-t7bHUaf4wi-55">
           <mxGeometry relative="1" as="geometry">
@@ -127,7 +131,7 @@
             <mxPoint x="716" y="54" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4xETRC22-t7bHUaf4wi-55" value="室外白盒配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w4xETRC22-t7bHUaf4wi-55" value="&lt;b&gt;室外白盒初版配置&lt;/b&gt;&lt;div&gt;&lt;div&gt;随机落点&lt;/div&gt;&lt;div&gt;室外刷怪点&lt;/div&gt;&lt;/div&gt;&lt;div&gt;室外机制&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="615" y="24" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-57" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -136,11 +140,47 @@
         <mxCell id="w4xETRC22-t7bHUaf4wi-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-58" target="w4xETRC22-t7bHUaf4wi-38">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="w4xETRC22-t7bHUaf4wi-58" value="&lt;b&gt;美术正式制作&lt;/b&gt;&lt;br&gt;室内+室外" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="w4xETRC22-t7bHUaf4wi-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-58" target="w4xETRC22-t7bHUaf4wi-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-58" target="w4xETRC22-t7bHUaf4wi-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-58" target="w4xETRC22-t7bHUaf4wi-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-58" value="&lt;b&gt;美术正式制作&lt;/b&gt;&lt;br&gt;室内+室外+门" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="947" y="24" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w4xETRC22-t7bHUaf4wi-63" value="LA" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="977" y="84" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-66" value="&lt;b&gt;关卡正式室内配置&lt;/b&gt;&lt;div&gt;&lt;div&gt;初版配置调优&lt;/div&gt;&lt;div&gt;无锁门+有锁门&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="-29" width="120" height="52.25" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-68" value="&lt;b&gt;关卡室外配置&lt;/b&gt;&lt;div&gt;初版配置调优&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;div&gt;正门+后门&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1143" y="63.75" width="120" height="58.75" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-70" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="23.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-71" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="122.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-51" target="w4xETRC22-t7bHUaf4wi-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="w4xETRC22-t7bHUaf4wi-73" target="w4xETRC22-t7bHUaf4wi-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-73" value="&lt;b&gt;室内白盒初版配置&lt;/b&gt;&lt;div&gt;&lt;div&gt;链接点&lt;br&gt;&lt;/div&gt;&lt;div&gt;物资点&lt;/div&gt;&lt;div&gt;刷怪点&lt;/div&gt;&lt;div&gt;随机物件&lt;/div&gt;&lt;div&gt;死亡区域&lt;/div&gt;&lt;div&gt;室内机制&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="-150" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-74" value="LD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="645" y="-20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="w4xETRC22-t7bHUaf4wi-79" value="&lt;b&gt;天气灾害&lt;/b&gt;&lt;div&gt;效果调优&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="-121" width="120" height="78.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
