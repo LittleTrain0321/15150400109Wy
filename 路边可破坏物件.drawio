@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="Va7lesuhmlkd4zRvfCV4">
-    <mxGraphModel dx="988" dy="523" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2128" dy="915" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n4h6cx65gVVSt2BHoM08-17" value="" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-204.5" y="707" width="872" height="418" as="geometry" />
+        </mxCell>
         <mxCell id="n4h6cx65gVVSt2BHoM08-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n4h6cx65gVVSt2BHoM08-3" target="n4h6cx65gVVSt2BHoM08-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -36,6 +39,32 @@
         <mxCell id="n4h6cx65gVVSt2BHoM08-12" value="&lt;br&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;已经放置在场景中&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; text-align: center; background-color: rgb(255, 255, 255);&quot;&gt;的可破坏物件&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="413" y="158" width="164" height="73" as="geometry" />
         </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4h6cx65gVVSt2BHoM08-13" target="n4h6cx65gVVSt2BHoM08-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-19" value="进入破坏流程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n4h6cx65gVVSt2BHoM08-18">
+          <mxGeometry x="-0.1558" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-23" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n4h6cx65gVVSt2BHoM08-18">
+          <mxGeometry x="-0.5208" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="n4h6cx65gVVSt2BHoM08-13" target="n4h6cx65gVVSt2BHoM08-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="356" y="593" />
+              <mxPoint x="356" y="315" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-21" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="n4h6cx65gVVSt2BHoM08-20">
+          <mxGeometry x="-0.2053" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="n4h6cx65gVVSt2BHoM08-13" value="剩余血量/受击次数&lt;div&gt;是否&amp;lt;=0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="158" y="543" width="147" height="100" as="geometry" />
         </mxCell>
@@ -48,7 +77,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n4h6cx65gVVSt2BHoM08-16" value="被破坏物件&lt;div&gt;是否有子物件&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="158" y="704" width="147" height="100" as="geometry" />
+          <mxGeometry x="158" y="707" width="147" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
