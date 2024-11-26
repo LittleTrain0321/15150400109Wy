@@ -47,6 +47,9 @@
             <mxPoint x="3" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="n4h6cx65gVVSt2BHoM08-16" value="被破坏物件&lt;div&gt;是否有子物件&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="158" y="704" width="147" height="100" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
