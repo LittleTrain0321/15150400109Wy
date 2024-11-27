@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="Va7lesuhmlkd4zRvfCV4">
-    <mxGraphModel dx="5009" dy="2440" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2059" dy="878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -217,7 +217,7 @@
           <mxGeometry x="171.5" y="1285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="uieIQEx0IR_x6s4_1cCk-34" value="开启物理模拟可以直接使用相关参数控制物理效果&lt;div&gt;质量、摩擦力、弹性、线性阻尼和角度阻尼等&lt;/div&gt;&lt;div&gt;也需要针对每个可破坏物件进行配置&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-212" y="1268" width="296" height="94" as="geometry" />
+          <mxGeometry x="-177" y="1268" width="296" height="94" as="geometry" />
         </mxCell>
         <mxCell id="uieIQEx0IR_x6s4_1cCk-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uieIQEx0IR_x6s4_1cCk-35" target="uieIQEx0IR_x6s4_1cCk-45">
           <mxGeometry relative="1" as="geometry" />
