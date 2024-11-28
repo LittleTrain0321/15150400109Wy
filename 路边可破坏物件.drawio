@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="Va7lesuhmlkd4zRvfCV4">
-    <mxGraphModel dx="2840" dy="1292" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3363" dy="1569" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -124,10 +124,10 @@
         <mxCell id="uieIQEx0IR_x6s4_1cCk-2" value="【可破坏时速】&lt;div&gt;单位：同载具车速&lt;/div&gt;&lt;div&gt;数据类型：int&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="-301" y="370.5" width="120" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="uieIQEx0IR_x6s4_1cCk-3" value="【检测玩家半径】&lt;div&gt;单位：米&lt;/div&gt;&lt;div&gt;数据类型：int&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="uieIQEx0IR_x6s4_1cCk-3" value="【检测玩家半径】&lt;div&gt;单位：米&lt;/div&gt;&lt;div&gt;数据类型：float&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="679" y="577" width="120" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="uieIQEx0IR_x6s4_1cCk-4" value="【持续健康时间】&lt;div&gt;单位：秒&lt;/div&gt;&lt;div&gt;数据类型：int&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="uieIQEx0IR_x6s4_1cCk-4" value="【持续健康时间】&lt;div&gt;单位：秒&lt;/div&gt;&lt;div&gt;数据类型：float&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="679" y="776" width="120" height="94" as="geometry" />
         </mxCell>
         <mxCell id="uieIQEx0IR_x6s4_1cCk-7" value="&lt;div&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;备注&lt;/b&gt;&lt;/div&gt;为了阅读顺畅&lt;div&gt;不纠结Y/N方向&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -231,10 +231,10 @@
         <mxCell id="uieIQEx0IR_x6s4_1cCk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uieIQEx0IR_x6s4_1cCk-41" target="uieIQEx0IR_x6s4_1cCk-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uieIQEx0IR_x6s4_1cCk-39" value="【物件重置检测玩家半径】&lt;div&gt;单位：米&lt;/div&gt;&lt;div&gt;数据类型：int&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="uieIQEx0IR_x6s4_1cCk-39" value="【物件重置检测玩家半径】&lt;div&gt;单位：米&lt;/div&gt;&lt;div&gt;数据类型：float&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="483" y="1636" width="146" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="uieIQEx0IR_x6s4_1cCk-40" value="【重置CD】&lt;div&gt;单位：秒&lt;/div&gt;&lt;div&gt;数据类型：int&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
+        <mxCell id="uieIQEx0IR_x6s4_1cCk-40" value="【重置CD】&lt;div&gt;单位：秒&lt;/div&gt;&lt;div&gt;数据类型：float&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#FFAA00;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="483" y="1514" width="120" height="94" as="geometry" />
         </mxCell>
         <mxCell id="uieIQEx0IR_x6s4_1cCk-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="uieIQEx0IR_x6s4_1cCk-32" target="uieIQEx0IR_x6s4_1cCk-41" edge="1">
