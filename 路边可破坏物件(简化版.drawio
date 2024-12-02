@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="第 1 页" id="5kZ3k5kyPNScydWYMPVq">
-    <mxGraphModel dx="2059" dy="878" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3165" dy="1464" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -21,7 +21,7 @@
         <mxCell id="08e77g5gVcFAM2FmxPXd-5" value="是否受到破坏伤害" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="158" y="396" width="147" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="08e77g5gVcFAM2FmxPXd-6" value="省性能版的&lt;div&gt;不可破坏版&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="08e77g5gVcFAM2FmxPXd-6" value="省性能版的&lt;div&gt;不可破坏版-ISM&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="171.5" y="285" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="08e77g5gVcFAM2FmxPXd-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="08e77g5gVcFAM2FmxPXd-6" target="08e77g5gVcFAM2FmxPXd-5">
@@ -78,7 +78,7 @@
             <mxPoint x="3" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="08e77g5gVcFAM2FmxPXd-24" value="可破坏版" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="08e77g5gVcFAM2FmxPXd-24" value="可破坏版BP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="171.5" y="556" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="08e77g5gVcFAM2FmxPXd-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="08e77g5gVcFAM2FmxPXd-29" target="08e77g5gVcFAM2FmxPXd-6">
