@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="1185" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2963" dy="1969" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,19 +212,37 @@
           <mxGeometry x="1952" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-30" value="单次补充案件数量范围：C 暂定[1,3]&amp;nbsp;&lt;div&gt;随机抽取一个数量。可配置上下限即可。&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="741" y="817.25" width="260" height="97.5" as="geometry" />
+          <mxGeometry x="746" y="998.63" width="260" height="78.75" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y34pRE13ypVC61gBzhvJ-32" target="Y34pRE13ypVC61gBzhvJ-36">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-32" value="筛出当前符合&lt;div&gt;职业等级的案件&lt;/div&gt;&lt;div&gt;加入随机池&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-32" value="把当前不匹配&lt;div&gt;职业等级的案件&lt;/div&gt;&lt;div&gt;从随机池中剔除&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480.5" y="722" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-33" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;从符合条件的案件池中&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;抽选C个案件补充&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="902.1904994419642" y="1119.2381417410716" width="148" height="51" as="geometry" />
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y34pRE13ypVC61gBzhvJ-36" target="Y34pRE13ypVC61gBzhvJ-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-36" value="筛出当前&lt;div&gt;不在CD中的案件&lt;/div&gt;&lt;div&gt;加入随机池&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-36" value="把当前&lt;div&gt;在CD中的案件&lt;/div&gt;&lt;div&gt;从随机池中剔除&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="480.5" y="889" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y34pRE13ypVC61gBzhvJ-40" target="Y34pRE13ypVC61gBzhvJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-40" value="从随机池中&lt;div&gt;抽取C个案件并发布&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480.5" y="1008" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y34pRE13ypVC61gBzhvJ-42" target="Y34pRE13ypVC61gBzhvJ-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-42" value="发布的案件进入CD：X" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="469.25" y="1111" width="142.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-44" value="案件CD X：暂定300 秒&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(避免重复案件出现多次&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="746" y="1101.63" width="260" height="78.75" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-45" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="500.5" y="1211" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
