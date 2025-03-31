@@ -1,25 +1,25 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2440" dy="1692" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4080" dy="2542" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="500.5" y="67" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-2" value="当前所有案件总数&amp;lt;B&amp;nbsp;&lt;br&gt;||&lt;div&gt;PVE追逐案件出现CD&amp;lt;=0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-2" value="当前所有案件总数&amp;lt;B&amp;nbsp;&lt;br&gt;||&lt;div&gt;PVE追击案件出现CD&amp;lt;=0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="348" width="233" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-3" value="当前所有案件总数B：暂定5&lt;div&gt;PVE追逐案件出现CD：暂定30s&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(控制追逐案件补充频率&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-3" value="当前所有案件总数B：暂定5&lt;div&gt;PVE追击案件出现CD：暂定30s&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(控制追击案件补充频率&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="741" y="357.75" width="211" height="97.5" as="geometry" />
         </mxCell>
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lBdk9qtxuzmNU9C4Q0Ab-1" target="lBdk9qtxuzmNU9C4Q0Ab-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-5" value="当前PVE追逐案件总数&amp;lt;=A" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-5" value="当前PVE追击案件总数&amp;lt;=A" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="202" width="233" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-6" value="当前PVE追逐案件总数A：暂定3&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(避免追逐案件过多&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-6" value="当前PVE追击案件总数A：暂定3&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(避免追击案件过多&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="741" y="198.5" width="211" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lBdk9qtxuzmNU9C4Q0Ab-5" target="lBdk9qtxuzmNU9C4Q0Ab-2" edge="1">
@@ -86,7 +86,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-15" value="&lt;div&gt;根据追逐PVE条件判断&lt;/div&gt;&lt;div&gt;刷新案件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-15" value="&lt;div&gt;根据追击PVE条件判断&lt;/div&gt;&lt;div&gt;刷新案件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="454.5" y="-222" width="148" height="72" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-18" target="-TOpqSOfv_H1Qqij2RZm-30" edge="1">
@@ -112,13 +112,13 @@
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-21" value="刷车&lt;div&gt;车上有司机和枪手&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="697" y="-92" width="113" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-23" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-23" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="715.5" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-27" value="按照配置点位&lt;div&gt;顺次移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="967" y="-92" width="113" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-29" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-29" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
           <mxGeometry x="985.5" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-30" target="-TOpqSOfv_H1Qqij2RZm-27" edge="1">
@@ -129,7 +129,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-30" value="玩家开车追逐" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-30" value="警察玩家开车追击" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="967" y="-222" width="113" height="72" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-32" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;玩家&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
@@ -204,16 +204,16 @@
         <mxCell id="Y34pRE13ypVC61gBzhvJ-19" value="任务失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="1950" y="-222" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-21" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-21" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1246.5" y="-12" width="76" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-23" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-23" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1555" y="-12" width="76" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-25" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-25" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1747.5" y="-12" width="76" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-26" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-26" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1952" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-30" value="单次补充案件数量范围：C 暂定[1,3]&amp;nbsp;&lt;div&gt;随机抽取一个数量。可配置上下限即可。&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
