@@ -48,6 +48,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-47" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y34pRE13ypVC61gBzhvJ-39">
+          <mxGeometry x="-0.0962" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-1" value="当前是否有职业等级&lt;div&gt;匹配的玩家在线&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="538" width="233" height="77" as="geometry" />
         </mxCell>
@@ -212,7 +217,7 @@
           <mxGeometry x="1952" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-30" value="单次补充案件数量范围：C 暂定[1,3]&amp;nbsp;&lt;div&gt;随机抽取一个数量。可配置上下限即可。&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="746" y="998.63" width="260" height="78.75" as="geometry" />
+          <mxGeometry x="716.5" y="998.63" width="260" height="78.75" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y34pRE13ypVC61gBzhvJ-32" target="Y34pRE13ypVC61gBzhvJ-36">
           <mxGeometry relative="1" as="geometry" />
@@ -239,7 +244,7 @@
           <mxGeometry x="469.25" y="1111" width="142.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-44" value="案件CD X：暂定300 秒&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(避免重复案件出现多次&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="746" y="1101.63" width="260" height="78.75" as="geometry" />
+          <mxGeometry x="716.5" y="1101.63" width="260" height="78.75" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-45" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="500.5" y="1211" width="80" height="80" as="geometry" />
