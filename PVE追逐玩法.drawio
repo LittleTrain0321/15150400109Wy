@@ -87,8 +87,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-15" value="&lt;div&gt;根据追逐PVE条件判断&lt;/div&gt;&lt;div&gt;刷新案件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-15" value="&lt;div&gt;根据追逐PVE条件判断&lt;/div&gt;&lt;div&gt;刷新案件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="454.5" y="-222" width="148" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-18" target="-TOpqSOfv_H1Qqij2RZm-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-18" value="警察玩家在MDT上&lt;div&gt;看到案件并加入&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="697" y="-222" width="113" height="72" as="geometry" />
@@ -102,14 +105,42 @@
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-21" target="-TOpqSOfv_H1Qqij2RZm-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-21" value="可能刷人或者刷车&lt;div&gt;然后开始移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-35" value="开始移动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-TOpqSOfv_H1Qqij2RZm-28">
+          <mxGeometry x="-0.1501" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-21" value="可能刷人或者刷车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="697" y="-92" width="113" height="72" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-23" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
-          <mxGeometry x="715.5" y="-117" width="76" height="25" as="geometry" />
+          <mxGeometry x="715.5" y="-20" width="76" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-27" value="可能刷人或者刷车&lt;div&gt;然后开始移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-27" value="按照配置点位&lt;div&gt;顺次移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="967" y="-92" width="113" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-29" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="985.5" y="-20" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-30" target="-TOpqSOfv_H1Qqij2RZm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-34" value="追" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-TOpqSOfv_H1Qqij2RZm-33">
+          <mxGeometry x="-0.1478" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-30" value="玩家开车追逐" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="967" y="-222" width="113" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-32" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;玩家&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="985.5" y="-247" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-36" value="到达目标点之前，是否" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1168" y="-92.5" width="233" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-27" target="-TOpqSOfv_H1Qqij2RZm-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
