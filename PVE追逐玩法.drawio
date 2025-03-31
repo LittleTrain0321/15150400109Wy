@@ -99,11 +99,17 @@
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-20" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;玩家&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="715.5" y="-247" width="76" height="25" as="geometry" />
         </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-21" target="-TOpqSOfv_H1Qqij2RZm-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-21" value="可能刷人或者刷车&lt;div&gt;然后开始移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="697" y="-92" width="113" height="72" as="geometry" />
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-23" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="715.5" y="-117" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-27" value="可能刷人或者刷车&lt;div&gt;然后开始移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="967" y="-92" width="113" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
