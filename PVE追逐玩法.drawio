@@ -10,7 +10,7 @@
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-2" value="当前所有案件总数&amp;lt;B&amp;nbsp;&lt;br&gt;||&lt;div&gt;PVE追逐案件出现CD&amp;lt;=0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="348" width="233" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-3" value="当前所有案件总数B：暂定5&lt;div&gt;PVE追逐案件出现CD：暂定30s&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-3" value="当前所有案件总数B：暂定5&lt;div&gt;PVE追逐案件出现CD：暂定30s&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;(控制案件总数&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="744" y="345.5" width="211" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lBdk9qtxuzmNU9C4Q0Ab-1" target="lBdk9qtxuzmNU9C4Q0Ab-5" edge="1">
@@ -19,7 +19,7 @@
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-5" value="当前PVE追逐案件总数&amp;lt;=A" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="424" y="202" width="233" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-6" value="当前PVE追逐案件总数A：暂定3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-6" value="当前PVE追逐案件总数A：暂定3&lt;div&gt;(避免追逐案件过多&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="741" y="198.5" width="211" height="80" as="geometry" />
         </mxCell>
         <mxCell id="lBdk9qtxuzmNU9C4Q0Ab-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="lBdk9qtxuzmNU9C4Q0Ab-5" target="lBdk9qtxuzmNU9C4Q0Ab-2" edge="1">
