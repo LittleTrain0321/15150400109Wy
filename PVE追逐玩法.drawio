@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="1430" dy="1157" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="1027" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -68,8 +68,42 @@
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-11" value="按照原有权重刷新" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="220" y="654" width="233" height="77" as="geometry" />
         </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-14" target="-TOpqSOfv_H1Qqij2RZm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-14" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="863" y="-200" width="80" height="80" as="geometry" />
+          <mxGeometry x="292" y="-226" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-15" target="-TOpqSOfv_H1Qqij2RZm-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670.689655172414" y="-185.9655172413793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-TOpqSOfv_H1Qqij2RZm-15" target="-TOpqSOfv_H1Qqij2RZm-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-26" value="刷出AI" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-TOpqSOfv_H1Qqij2RZm-25">
+          <mxGeometry x="0.2433" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-15" value="&lt;div&gt;根据追逐PVE条件判断&lt;/div&gt;&lt;div&gt;刷新案件&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="454.5" y="-222" width="148" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-18" value="警察玩家在MDT上&lt;div&gt;看到案件并加入&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="697" y="-222" width="113" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-19" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;案件系统&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="490.5" y="-247" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-20" value="&lt;span style=&quot;font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;玩家&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="715.5" y="-247" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-21" value="可能刷人或者刷车&lt;div&gt;然后开始移动&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="697" y="-92" width="113" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-23" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
+          <mxGeometry x="715.5" y="-117" width="76" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
