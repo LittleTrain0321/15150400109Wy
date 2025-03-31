@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2074" dy="1498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="988" dy="923" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -30,9 +30,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-1" target="-TOpqSOfv_H1Qqij2RZm-8" edge="1">
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-1" target="Y34pRE13ypVC61gBzhvJ-29" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="540.344827586207" y="739.0919820851293" as="targetPoint" />
+            <mxPoint x="540.5" y="757" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-1" target="-TOpqSOfv_H1Qqij2RZm-11" edge="1">
@@ -59,11 +59,10 @@
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-4" value="每个案件配置职业等级&lt;div&gt;可以配范围区间&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;[1,10]&lt;/span&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="741" y="536.5" width="211" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-8" value="刷新符合条件的案件" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="500.5" y="757" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="-TOpqSOfv_H1Qqij2RZm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-11" target="-TOpqSOfv_H1Qqij2RZm-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="-TOpqSOfv_H1Qqij2RZm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-TOpqSOfv_H1Qqij2RZm-11" target="Y34pRE13ypVC61gBzhvJ-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500.5" y="797" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-TOpqSOfv_H1Qqij2RZm-11" value="按照原有权重刷新" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="220" y="654" width="233" height="77" as="geometry" />
@@ -216,6 +215,9 @@
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-26" value="匪徒AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" vertex="1" parent="1">
           <mxGeometry x="1952" y="-20" width="76" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-29" value="案件补充数量" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="424" y="835" width="233" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
