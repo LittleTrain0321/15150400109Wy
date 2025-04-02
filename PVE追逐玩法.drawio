@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.3">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2074" dy="1498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2433" dy="1698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,7 +155,7 @@
         <mxCell id="Y34pRE13ypVC61gBzhvJ-2" value="是否到达终点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1526" y="-93" width="134" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-5" value="正常结算" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-5" value="正常结算&lt;div&gt;案件结束&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1244.5" y="-222" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-9" value="执行逃脱行为" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
@@ -189,7 +189,7 @@
         <mxCell id="Y34pRE13ypVC61gBzhvJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y34pRE13ypVC61gBzhvJ-9" target="Y34pRE13ypVC61gBzhvJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-19" value="任务失败" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-19" value="任务失败&lt;div&gt;案件结束&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1950" y="-222" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-21" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
@@ -236,6 +236,84 @@
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-45" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="500.5" y="1211" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="251" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-2" value="案件刷新流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="487" y="179" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-3" value="玩法流程" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="-197" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-4" value="警察复活逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1596.5" y="179" width="107" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-5" value="当前是否处于&lt;div&gt;追击案件流程中&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1583.25" y="394" width="133.5" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-1" target="_tA26rEIKO73f23lyRNM-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-7" target="_tA26rEIKO73f23lyRNM-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1650" y="672" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-13" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_tA26rEIKO73f23lyRNM-11">
+          <mxGeometry x="-0.0409" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-7" value="玩家是否死亡" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1583.25" y="522" width="133.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-5" target="_tA26rEIKO73f23lyRNM-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-10" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_tA26rEIKO73f23lyRNM-8">
+          <mxGeometry x="-0.1852" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-9" value="玩家加入案件即处于案件流程中&lt;div&gt;当飞车党逃脱，或被逮捕/击杀时，案件结束&lt;/div&gt;&lt;div&gt;如果玩家中途切换身份应该也退出案件流程&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="1782" y="390.5" width="259" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-12" target="_tA26rEIKO73f23lyRNM-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-12" target="_tA26rEIKO73f23lyRNM-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-12" value="选择复活位置" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1583.25" y="642" width="133.5" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-14" target="_tA26rEIKO73f23lyRNM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-14" value="最近的POI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1477" y="782" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-15" target="_tA26rEIKO73f23lyRNM-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-15" value="最近的警察局" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1703" y="782" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-18" target="_tA26rEIKO73f23lyRNM-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-18" value="在玩家选择的位置&lt;div&gt;走重生逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="932" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_tA26rEIKO73f23lyRNM-21" target="_tA26rEIKO73f23lyRNM-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-21" value="最近的路网空地上&lt;div&gt;刷车&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="1021" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_tA26rEIKO73f23lyRNM-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1120" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
