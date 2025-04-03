@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4">
   <diagram name="第 1 页" id="ho7mqtrvVQJZ-yDvlpge">
-    <mxGraphModel dx="1089" dy="768" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="1161" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="-159" y="82" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-2" value="护送VIP(旧)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-159" y="397" width="91" height="30" as="geometry" />
+          <mxGeometry x="-212" y="757" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-3" target="s4P-E_aEvJXquywrjiAm-10">
           <mxGeometry relative="1" as="geometry">
@@ -19,16 +19,54 @@
           <mxGeometry x="-20" y="47" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-5" value="护送VIP 新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-159" y="512" width="91" height="30" as="geometry" />
+          <mxGeometry x="-212" y="872" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-8" value="警察玩家" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="171" y="-89" width="30" height="60" as="geometry" />
+          <mxGeometry x="743" y="-57" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-9" value="平民玩家" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="258" y="-89" width="30" height="60" as="geometry" />
+          <mxGeometry x="743" y="-174" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-10" target="s4P-E_aEvJXquywrjiAm-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-10" value="是否满足活动开启条件&lt;div&gt;当前仅为配置时间&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="183" y="47" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-11" target="s4P-E_aEvJXquywrjiAm-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-18" value="刷出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-14">
+          <mxGeometry x="0.4787" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-11" value="活动开始&lt;div&gt;进入准备环节&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="418" y="47" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-13" value="运钞车(无敌)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="698" y="57" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-11" target="s4P-E_aEvJXquywrjiAm-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="97" />
+              <mxPoint x="591" y="-37" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-11" target="s4P-E_aEvJXquywrjiAm-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="591" y="97" />
+              <mxPoint x="591" y="-154" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-20" value="通知所有玩家&lt;div&gt;跑马灯+主界面活动入口&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-19">
+          <mxGeometry x="-0.4279" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
