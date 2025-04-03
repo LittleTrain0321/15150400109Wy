@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.2.4">
   <diagram name="第 1 页" id="ho7mqtrvVQJZ-yDvlpge">
-    <mxGraphModel dx="1826" dy="1161" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2468" dy="1503" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s4P-E_aEvJXquywrjiAm-54" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#80FF00;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="757" y="22.5" width="496" height="159.5" as="geometry" />
+        </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-1" value="护送运钞车&lt;div&gt;体验流程&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-159" y="82" width="91" height="30" as="geometry" />
         </mxCell>
@@ -20,14 +23,6 @@
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-5" value="护送VIP 新" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-212" y="872" width="91" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-8" target="s4P-E_aEvJXquywrjiAm-13">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-35" value="前往保护" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-33">
-          <mxGeometry x="-0.5504" y="2" relative="1" as="geometry">
-            <mxPoint x="49" y="47" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-8" value="警察玩家" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="668" y="-57" width="30" height="60" as="geometry" />
@@ -46,14 +41,14 @@
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-18" value="刷出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-14">
           <mxGeometry x="0.4787" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-97" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-11" value="活动开始&lt;div&gt;进入准备环节&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="s4P-E_aEvJXquywrjiAm-11" value="活动开始&lt;div&gt;进入准备环节&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="417" y="67" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-13" value="运钞车(无敌)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="728" y="57" width="120" height="80" as="geometry" />
+          <mxGeometry x="842" y="57" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-11" target="s4P-E_aEvJXquywrjiAm-8">
           <mxGeometry relative="1" as="geometry">
@@ -77,61 +72,63 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-21" value="等待倒计时&lt;div&gt;是否&amp;lt;=0&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="914" y="65" width="140" height="84" as="geometry" />
+          <mxGeometry x="1050" y="65" width="140" height="84" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=120;exitDy=50;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-13" target="s4P-E_aEvJXquywrjiAm-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-25" value="运钞车" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="77" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-21" target="s4P-E_aEvJXquywrjiAm-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-28" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-27">
-          <mxGeometry x="-0.2986" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-29" value="开始移动" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1172" y="162" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-36" value="前往起始点&lt;div&gt;寻找位置埋伏&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1135" y="-40" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-37" target="s4P-E_aEvJXquywrjiAm-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-37" target="s4P-E_aEvJXquywrjiAm-39">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="s4P-E_aEvJXquywrjiAm-29" value="起始区域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="200" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-37" value="袭击路线选择" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="854" y="-190" width="120" height="72" as="geometry" />
+          <mxGeometry x="907" y="-191" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-9" target="s4P-E_aEvJXquywrjiAm-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-39" value="前往途经点" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1209" y="-184" width="100" height="60" as="geometry" />
+        <mxCell id="s4P-E_aEvJXquywrjiAm-55" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fillWeight=4;hachureGap=8;hachureAngle=45;fillColor=#f0a30a;sketch=1;fontColor=#000000;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1351" y="22.5" width="551" height="159.5" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=50;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-36" target="s4P-E_aEvJXquywrjiAm-25">
+        <mxCell id="s4P-E_aEvJXquywrjiAm-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.185;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-8" target="s4P-E_aEvJXquywrjiAm-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0;entryDx=70;entryDy=80;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-21" target="s4P-E_aEvJXquywrjiAm-13">
+        <mxCell id="s4P-E_aEvJXquywrjiAm-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.425;entryY=-0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-37" target="s4P-E_aEvJXquywrjiAm-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-49" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-48">
-          <mxGeometry x="-0.1722" y="-1" relative="1" as="geometry">
+        <mxCell id="s4P-E_aEvJXquywrjiAm-58" value="蹲守起始点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-57">
+          <mxGeometry x="-0.1448" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;curved=1;fillColor=#e51400;strokeColor=#FF0000;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-50">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1235" y="-300" as="targetPoint" />
+        <mxCell id="s4P-E_aEvJXquywrjiAm-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.116;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-37" target="s4P-E_aEvJXquywrjiAm-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-60" value="前往途经点" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-59">
+          <mxGeometry x="-0.5312" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-50" value="Note" style="shape=note;size=25;whiteSpace=wrap;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;" vertex="1" parent="1">
-          <mxGeometry x="1328" y="-387" width="100" height="100" as="geometry" />
+        <mxCell id="s4P-E_aEvJXquywrjiAm-61" value="途径区域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1596.5" y="200" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-63" value="运钞车" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="1402" y="67" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.028;entryY=0.504;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-21" target="s4P-E_aEvJXquywrjiAm-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-65" value="开始移动" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-64">
+          <mxGeometry x="-0.3708" y="-1" relative="1" as="geometry">
+            <mxPoint x="36" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-71" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="s4P-E_aEvJXquywrjiAm-64">
+          <mxGeometry x="-0.7128" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s4P-E_aEvJXquywrjiAm-70" value="战斗情况预期&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="831" y="302" width="375" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
