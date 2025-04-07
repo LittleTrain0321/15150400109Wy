@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8">
   <diagram name="第 1 页" id="ho7mqtrvVQJZ-yDvlpge">
-    <mxGraphModel dx="1826" dy="1161" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2833" dy="1698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -116,7 +116,7 @@
         <mxCell id="s4P-E_aEvJXquywrjiAm-61" value="途径区域" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1588" y="-7.5" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="s4P-E_aEvJXquywrjiAm-63" value="运钞车(持续移动)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
+        <mxCell id="s4P-E_aEvJXquywrjiAm-63" value="运钞车(自动移动)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="1391" y="68" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="s4P-E_aEvJXquywrjiAm-70" value="&lt;div&gt;主要目标位置双方信息相同，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;到达路径、时间和人数均不可控。&lt;/span&gt;&lt;/div&gt;&lt;div&gt;所以有可能出现一方势力在该点位人数过多或者提前占据有利地形的情况&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;如果该地区被匪徒玩家控制，警察无法靠近，则可能出现较快破坏运钞车的情况。一味的提高血量则会面临常规情况运钞车较难破坏的问题。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;具体点位的关卡结构较为主要，需重点设计。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" parent="1" vertex="1">
@@ -134,7 +134,7 @@
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-3" value="运钞车(无敌静止)" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
           <mxGeometry x="2209" y="81" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="cY9s3i5ZGBaOPXkzrkN2-6" value="袭击路线选择" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="cY9s3i5ZGBaOPXkzrkN2-6" value="护送路线选择" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="877" y="248" width="120" height="72" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="s4P-E_aEvJXquywrjiAm-8" target="cY9s3i5ZGBaOPXkzrkN2-6">
