@@ -386,7 +386,13 @@
           <mxGeometry x="560" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-23" value="视频演示" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="590" y="2032" width="60" height="30" as="geometry" />
+          <mxGeometry x="590" y="2072" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="NOMmsY5ElrjwkXrI579L-25" value="警察玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="487" y="2102" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="487" y="2242" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
