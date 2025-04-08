@@ -317,8 +317,8 @@
         <mxCell id="NOMmsY5ElrjwkXrI579L-2" value="生成逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2479.5" y="179" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-3" value="当前的位置是否" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2466.25" y="394" width="133.5" height="77" as="geometry" />
+        <mxCell id="NOMmsY5ElrjwkXrI579L-3" value="当前的生成位置&lt;div&gt;是否被占用&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2466.25" y="384" width="133.5" height="77" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-1" target="NOMmsY5ElrjwkXrI579L-3">
           <mxGeometry relative="1" as="geometry" />
@@ -333,8 +333,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-7" value="玩家是否死亡" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="2466.25" y="522" width="133.5" height="63" as="geometry" />
+        <mxCell id="NOMmsY5ElrjwkXrI579L-7" value="当前的生成位置&lt;div&gt;是否会被玩家看到&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2466.25" y="508.5" width="133.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="NOMmsY5ElrjwkXrI579L-7">
           <mxGeometry relative="1" as="geometry" />
@@ -344,8 +344,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-10" value="玩家加入案件即处于案件流程中&lt;div&gt;当飞车党逃脱，或被逮捕/击杀时，案件结束&lt;/div&gt;&lt;div&gt;如果玩家中途切换身份应该也退出案件流程&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
-          <mxGeometry x="2665" y="390.5" width="259" height="84" as="geometry" />
+        <mxCell id="NOMmsY5ElrjwkXrI579L-10" value="是否有足够生成的空间，&lt;div&gt;有人有车等动态阻挡物都算被占用。&lt;div&gt;检测面积 10*10M&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="2738" y="390.5" width="259" height="84" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-13" target="NOMmsY5ElrjwkXrI579L-15">
           <mxGeometry relative="1" as="geometry" />
@@ -378,6 +378,9 @@
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2493" y="1049" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NOMmsY5ElrjwkXrI579L-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2128" y="558" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
