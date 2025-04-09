@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="1654" dy="1282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2433" dy="1698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -413,16 +413,96 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-5" value="选择追击方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1159" y="2082" width="134" height="100" as="geometry" />
+          <mxGeometry x="1158" y="2101" width="134" height="62" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-3" target="bP38wD7Q0idlnA3Jdsdp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-7" value="直接追击目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1439" y="2022" width="120" height="60" as="geometry" />
+          <mxGeometry x="1342" y="1997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-8" value="提前布置路障拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1439" y="2182" width="120" height="60" as="geometry" />
+          <mxGeometry x="1342" y="2207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-11" target="bP38wD7Q0idlnA3Jdsdp-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-11" target="bP38wD7Q0idlnA3Jdsdp-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-11" value="追击截停方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="1995" width="134" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-7" target="bP38wD7Q0idlnA3Jdsdp-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-13" target="bP38wD7Q0idlnA3Jdsdp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-13" value="撞到路边障碍物" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1809" y="1944" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-15" target="bP38wD7Q0idlnA3Jdsdp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-15" value="开到车前方截停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1811" y="2050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-17" target="bP38wD7Q0idlnA3Jdsdp-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1884" y="2225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-17" target="bP38wD7Q0idlnA3Jdsdp-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-17" value="提前拦截方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1586" y="2205" width="134" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-8" target="bP38wD7Q0idlnA3Jdsdp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-19" target="bP38wD7Q0idlnA3Jdsdp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-19" value="尖刺带拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1811" y="2154.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-21" target="bP38wD7Q0idlnA3Jdsdp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-21" value="路障拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1811" y="2259.75" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-23" target="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-23" value="停车后表现" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="2157" y="2100" width="134" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="1312" y="1906" width="647" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-38" value="包含载具射击部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="1876" width="179" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-42" value="匪徒战斗表现" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2364" y="1803" width="289" height="658" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-32" value="匪徒停车不下车，需要警察过去开门拉下车，匪徒无武器，直接被逮捕" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry x="36" y="95" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-33" value="匪徒主动下车，投降，然后被逮捕" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry x="36" y="203" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-34" value="匪徒主动下车 逃跑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry x="36" y="310" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-35" value="匪徒主动下车 跟警察对射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry x="36" y="418" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-39" value="匪徒主动下车 跟警察掩体对射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+          <mxGeometry x="36" y="525" width="217" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
