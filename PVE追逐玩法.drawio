@@ -403,8 +403,14 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-1" value="发现有追击案件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="767" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-3" value="点击查看详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-3" value="点击查看案件详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="967" y="2102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-5" value="选择追击方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1173" y="2082" width="134" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-3" target="bP38wD7Q0idlnA3Jdsdp-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
