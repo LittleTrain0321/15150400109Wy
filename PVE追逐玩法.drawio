@@ -382,6 +382,9 @@
         <mxCell id="NOMmsY5ElrjwkXrI579L-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2128" y="558" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-22" target="bP38wD7Q0idlnA3Jdsdp-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-22" value="警察查看MDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
@@ -393,6 +396,15 @@
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="2242" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-1" target="bP38wD7Q0idlnA3Jdsdp-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-1" value="发现有追击案件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="767" y="2102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-3" value="点击查看详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="967" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
