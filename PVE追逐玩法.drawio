@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="880" dy="869" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1654" dy="1282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -311,87 +311,87 @@
         <mxCell id="_tA26rEIKO73f23lyRNM-23" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1610" y="1049" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-1" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2493" y="251" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-2" value="生成逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-2" value="生成逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2479.5" y="179" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-3" value="当前的生成位置&lt;div&gt;是否被占用&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-3" value="当前的生成位置&lt;div&gt;是否被占用&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2466.25" y="384" width="133.5" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-1" target="NOMmsY5ElrjwkXrI579L-3">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-1" target="NOMmsY5ElrjwkXrI579L-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-7" target="NOMmsY5ElrjwkXrI579L-13">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-7" target="NOMmsY5ElrjwkXrI579L-13" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2533" y="672" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOMmsY5ElrjwkXrI579L-5">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-6" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NOMmsY5ElrjwkXrI579L-5" vertex="1" connectable="0">
           <mxGeometry x="-0.0409" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-7" value="当前的生成位置&lt;div&gt;是否会被玩家看到&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-7" value="当前的生成位置&lt;div&gt;是否会被玩家看到&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2466.25" y="508.5" width="133.5" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="NOMmsY5ElrjwkXrI579L-7">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="NOMmsY5ElrjwkXrI579L-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOMmsY5ElrjwkXrI579L-8">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NOMmsY5ElrjwkXrI579L-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1852" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-10" value="是否有足够生成的空间，&lt;div&gt;有人有车等动态阻挡物都算被占用。&lt;div&gt;检测面积 10*10M&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-10" value="是否有足够生成的空间，&lt;div&gt;有人有车等动态阻挡物都算被占用。&lt;div&gt;检测面积 10*10M&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="2738" y="390.5" width="259" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-13" target="NOMmsY5ElrjwkXrI579L-15">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-13" target="NOMmsY5ElrjwkXrI579L-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-13" target="NOMmsY5ElrjwkXrI579L-17">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-13" target="NOMmsY5ElrjwkXrI579L-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-13" value="选择复活位置" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-13" value="选择复活位置" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="2466.25" y="642" width="133.5" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-15" target="NOMmsY5ElrjwkXrI579L-19">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-15" target="NOMmsY5ElrjwkXrI579L-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-15" value="最近的指挥中心" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-15" value="最近的指挥中心" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2360" y="782" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-17" target="NOMmsY5ElrjwkXrI579L-19">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-17" target="NOMmsY5ElrjwkXrI579L-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-17" value="最近的警察局" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-17" value="最近的警察局" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2586" y="782" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-19" target="NOMmsY5ElrjwkXrI579L-20">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-19" target="NOMmsY5ElrjwkXrI579L-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="2533" y="1021" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-19" value="在玩家选择的位置&lt;div&gt;走重生逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-19" value="在玩家选择的位置&lt;div&gt;走重生逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2473" y="932" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-20" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2493" y="1049" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-21" value="开始" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="2128" y="558" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-22" value="警察查看MDT" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-23" value="视频演示" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-23" value="视频演示" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="2072" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-25" value="警察玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-25" value="警察玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="2102" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="2242" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
