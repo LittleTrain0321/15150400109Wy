@@ -486,6 +486,9 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-38" value="包含载具射击部分" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1555" y="1876" width="179" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-42" target="bP38wD7Q0idlnA3Jdsdp-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-42" value="匪徒战斗表现" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2364" y="1803" width="289" height="658" as="geometry" />
         </mxCell>
@@ -503,6 +506,9 @@
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-39" value="匪徒主动下车 跟警察掩体对射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
           <mxGeometry x="36" y="525" width="217" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-45" value="逮捕或击杀&lt;div&gt;片段结束&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="2856" y="2092" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
