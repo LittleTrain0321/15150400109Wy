@@ -406,11 +406,23 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-3" value="点击查看案件详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="964" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-5" target="bP38wD7Q0idlnA3Jdsdp-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-5" target="bP38wD7Q0idlnA3Jdsdp-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-5" value="选择追击方式" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="1159" y="2082" width="134" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-3" target="bP38wD7Q0idlnA3Jdsdp-5">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-7" value="直接追击目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1439" y="2022" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-8" value="提前布置路障拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1439" y="2182" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
