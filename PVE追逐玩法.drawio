@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="1654" dy="1282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2757" dy="1871" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -397,9 +397,6 @@
         <mxCell id="NOMmsY5ElrjwkXrI579L-25" value="警察玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="2102" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="500.5" y="2359" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-1" target="bP38wD7Q0idlnA3Jdsdp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -421,10 +418,10 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-3" target="bP38wD7Q0idlnA3Jdsdp-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-7" value="直接追击目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-7" value="直接追击目标" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1392" y="1997" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-8" value="提前布置路障拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-8" value="提前布置路障拦截" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1392" y="2207" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-7" target="bP38wD7Q0idlnA3Jdsdp-15">
@@ -435,7 +432,7 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-15" target="bP38wD7Q0idlnA3Jdsdp-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-15" value="开到车前方截停" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-15" value="开到车前方截停" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1745" y="1997" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-8" target="bP38wD7Q0idlnA3Jdsdp-19">
@@ -446,7 +443,7 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-19" target="bP38wD7Q0idlnA3Jdsdp-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-19" value="尖刺带/路障拦截" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-19" value="尖刺带/路障拦截" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1745" y="2207" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-23" target="bP38wD7Q0idlnA3Jdsdp-42">
@@ -464,29 +461,20 @@
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-42" value="匪徒战斗表现" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2375" y="1874" width="289" height="516" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-33" value="飞车党主动下车，投降，然后被逮捕" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-33" value="飞车党主动下车，投降，然后被逮捕" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
           <mxGeometry x="36" y="69" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-34" value="飞车党主动下车 逃跑" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-34" value="飞车党主动下车 逃跑" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
           <mxGeometry x="36" y="176" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-35" value="飞车党主动下车 跟警察对射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-35" value="飞车党主动下车 跟警察对射" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
           <mxGeometry x="36" y="284" width="217" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-39" value="飞车党主动下车 跟警察掩体对射" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-39" value="飞车党主动下车 跟警察掩体对射" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="bP38wD7Q0idlnA3Jdsdp-42">
           <mxGeometry x="36" y="391" width="217" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-45" value="逮捕或击杀&lt;div&gt;片段结束&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2856" y="2092" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-47" value="路人看到载具生成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="2359" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-48" value="路人看到警察正在追击飞车党" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="2461" width="183" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="bP38wD7Q0idlnA3Jdsdp-49" value="路人看到警察布置路障" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="2560" width="183" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
