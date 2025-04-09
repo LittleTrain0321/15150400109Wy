@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2433" dy="1698" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1723" dy="1319" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -389,13 +389,13 @@
           <mxGeometry x="560" y="2102" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-23" value="视频演示" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="590" y="2072" width="60" height="30" as="geometry" />
+          <mxGeometry x="390" y="2023" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-25" value="警察玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="487" y="2102" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NOMmsY5ElrjwkXrI579L-26" value="路人玩家视角" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="487" y="2242" width="30" height="60" as="geometry" />
+          <mxGeometry x="500.5" y="2359" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bP38wD7Q0idlnA3Jdsdp-1" target="bP38wD7Q0idlnA3Jdsdp-3">
           <mxGeometry relative="1" as="geometry" />
@@ -509,6 +509,9 @@
         </mxCell>
         <mxCell id="bP38wD7Q0idlnA3Jdsdp-45" value="逮捕或击杀&lt;div&gt;片段结束&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="2856" y="2092" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bP38wD7Q0idlnA3Jdsdp-47" value="警察查看MDT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="2359" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
