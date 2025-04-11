@@ -155,6 +155,11 @@
             <mxPoint x="1950.2299973060344" y="-56.31034482758628" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mLR14thL2u2HEynv0ROb-53" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y34pRE13ypVC61gBzhvJ-8">
+          <mxGeometry x="-0.1139" y="-1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-2" value="是否到达终点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1526" y="-93" width="134" height="73" as="geometry" />
         </mxCell>
