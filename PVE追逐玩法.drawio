@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2123" dy="1319" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3067" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,7 +325,7 @@
         <mxCell id="NOMmsY5ElrjwkXrI579L-2" value="生成逻辑" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="2479.5" y="179" width="107" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="rd7IBFpaQu1ElBQb-_Yk-4">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="rd7IBFpaQu1ElBQb-_Yk-4" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2656" y="423" />
@@ -333,7 +333,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rd7IBFpaQu1ElBQb-_Yk-6">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-7" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rd7IBFpaQu1ElBQb-_Yk-6" vertex="1" connectable="0">
           <mxGeometry x="-0.0266" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -354,7 +354,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="NOMmsY5ElrjwkXrI579L-7" target="NOMmsY5ElrjwkXrI579L-21">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-7" target="NOMmsY5ElrjwkXrI579L-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="2427" y="553" />
@@ -362,7 +362,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rd7IBFpaQu1ElBQb-_Yk-10">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="rd7IBFpaQu1ElBQb-_Yk-10" vertex="1" connectable="0">
           <mxGeometry x="-0.2583" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -373,7 +373,7 @@
         <mxCell id="NOMmsY5ElrjwkXrI579L-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NOMmsY5ElrjwkXrI579L-3" target="NOMmsY5ElrjwkXrI579L-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NOMmsY5ElrjwkXrI579L-8">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-5" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NOMmsY5ElrjwkXrI579L-8" vertex="1" connectable="0">
           <mxGeometry x="-0.1318" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -565,11 +565,23 @@
         <mxCell id="mLR14thL2u2HEynv0ROb-38" value="战斗风格及能力" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="mLR14thL2u2HEynv0ROb-36" vertex="1">
           <mxGeometry y="90" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rd7IBFpaQu1ElBQb-_Yk-4" target="NOMmsY5ElrjwkXrI579L-21">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="rd7IBFpaQu1ElBQb-_Yk-4" target="NOMmsY5ElrjwkXrI579L-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-4" value="在附近路网寻找有足够生成空间且不会被玩家看到&lt;div&gt;&lt;div&gt;的位置&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rd7IBFpaQu1ElBQb-_Yk-4" value="在附近路网寻找有足够生成空间且不会被玩家看到&lt;div&gt;&lt;div&gt;的位置&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2463.5" y="663" width="139" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-1" value="飞车党" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-2190.5" y="427" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-2" value="外观" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="519" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-5" value="武器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="560" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-6" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2220" y="600" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
