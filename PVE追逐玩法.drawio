@@ -796,6 +796,21 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-78" value="执行飞车党的下车后行为" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3790.25" y="1567" width="159.5" height="55.75" as="geometry" />
         </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-80" target="nckSBPapjt2oIkMcD94M-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-80" value="飞车党是否被逮捕" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3806" y="1714" width="127" height="75.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-81" value="此处抽象成下车后行为&lt;div&gt;包含 投降、逃跑、对抗射击等&lt;/div&gt;&lt;div&gt;此处不赘述&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="4026.25" y="1548" width="167.75" height="93.75" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-78" target="nckSBPapjt2oIkMcD94M-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-83" value="走逮捕逻辑&lt;div&gt;清理现场&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3824.63" y="1834" width="88.75" height="55.75" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
