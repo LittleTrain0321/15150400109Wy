@@ -584,7 +584,7 @@
           <mxGeometry x="97" y="439" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-6" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
-          <mxGeometry x="97" y="479" width="100" height="30" as="geometry" />
+          <mxGeometry x="97" y="523" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;dashed=1;dashPattern=8 8;" edge="1" parent="nckSBPapjt2oIkMcD94M-23" source="nckSBPapjt2oIkMcD94M-8" target="nckSBPapjt2oIkMcD94M-1">
           <mxGeometry relative="1" as="geometry" />
@@ -611,7 +611,7 @@
           <mxGeometry x="245" y="439" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-15" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
-          <mxGeometry x="245" y="479" width="100" height="30" as="geometry" />
+          <mxGeometry x="245" y="523" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="nckSBPapjt2oIkMcD94M-23" source="nckSBPapjt2oIkMcD94M-8" target="nckSBPapjt2oIkMcD94M-12">
           <mxGeometry relative="1" as="geometry" />
@@ -626,7 +626,16 @@
           <mxGeometry x="393" y="439" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-20" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
-          <mxGeometry x="393" y="479" width="100" height="30" as="geometry" />
+          <mxGeometry x="393" y="523" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-24" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
+          <mxGeometry x="97" y="481" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-25" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
+          <mxGeometry x="245" y="481" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-26" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="nckSBPapjt2oIkMcD94M-23">
+          <mxGeometry x="393" y="481" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
