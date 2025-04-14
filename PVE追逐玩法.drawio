@@ -699,6 +699,9 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-36" target="nckSBPapjt2oIkMcD94M-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-45" target="nckSBPapjt2oIkMcD94M-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-45" value="触发紧急刹车并下车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3807" y="1453" width="126" height="55.75" as="geometry" />
         </mxCell>
@@ -789,6 +792,9 @@
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-69" value="被拦截的定义：&lt;div&gt;车的前后方5M内均有非玩家的遮挡物&lt;/div&gt;&lt;div&gt;例：树、其他载具、墙、栏杆等&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="4026.25" y="1265" width="224" height="120.72" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-78" value="执行飞车党的下车后行为" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3790.25" y="1567" width="159.5" height="55.75" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
