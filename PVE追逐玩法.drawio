@@ -699,11 +699,21 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-36" target="nckSBPapjt2oIkMcD94M-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-45" value="触发紧急刹车/下车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="3634" y="1455" width="126" height="55.75" as="geometry" />
+        <mxCell id="nckSBPapjt2oIkMcD94M-45" value="触发紧急刹车并下车" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="3807" y="1453" width="126" height="55.75" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-46" target="nckSBPapjt2oIkMcD94M-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nckSBPapjt2oIkMcD94M-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-46" target="nckSBPapjt2oIkMcD94M-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3672" y="1016" />
+              <mxPoint x="3672" y="1481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-74" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nckSBPapjt2oIkMcD94M-71">
+          <mxGeometry x="-0.8177" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-46" value="载具血量是否&amp;gt;30%" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3806" y="978" width="127" height="75.5" as="geometry" />
@@ -728,8 +738,18 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-57" value="此处可以抽象为是否启用载具射击行为&lt;div&gt;具体逻辑复用警察的即可&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="4026.25" y="829.07" width="224" height="102.93" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-60" target="nckSBPapjt2oIkMcD94M-45">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="nckSBPapjt2oIkMcD94M-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-60" target="nckSBPapjt2oIkMcD94M-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3672" y="1176" />
+              <mxPoint x="3672" y="1481" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-75" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nckSBPapjt2oIkMcD94M-73">
+          <mxGeometry x="-0.7936" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-60" value="载具是否可以&lt;div&gt;继续行驶？&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3806" y="1138" width="127" height="75.5" as="geometry" />
@@ -748,11 +768,27 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-65" value="目前已知的方式主要是玩家破坏&lt;div&gt;无论武器/投掷物/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;尖刺带&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;造成破坏&lt;/span&gt;&lt;/div&gt;&lt;div&gt;只要是四个轮胎都被破坏&lt;/div&gt;&lt;div&gt;则判定无法驾驶&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
           <mxGeometry x="4026.25" y="1115.3899999999999" width="224" height="120.72" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-67" value="车辆被前后拦截" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3805.5" y="1277" width="127" height="75.5" as="geometry" />
+        <mxCell id="nckSBPapjt2oIkMcD94M-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-67" target="nckSBPapjt2oIkMcD94M-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-77" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nckSBPapjt2oIkMcD94M-70">
+          <mxGeometry x="-0.2475" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-67" value="车辆是否被拦截&lt;div&gt;且速度始终&amp;lt;10&lt;/div&gt;&lt;div&gt;持续3s&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="3766.25" y="1282" width="206.5" height="92" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nckSBPapjt2oIkMcD94M-60" target="nckSBPapjt2oIkMcD94M-67">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-76" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nckSBPapjt2oIkMcD94M-68">
+          <mxGeometry x="-0.2457" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nckSBPapjt2oIkMcD94M-69" value="被拦截的定义：&lt;div&gt;车的前后方5M内均有非玩家的遮挡物&lt;/div&gt;&lt;div&gt;例：树、其他载具、墙、栏杆等&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;" vertex="1" parent="1">
+          <mxGeometry x="4026.25" y="1265" width="224" height="120.72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
