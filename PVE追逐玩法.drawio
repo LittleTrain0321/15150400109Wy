@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="4370" dy="1450" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6996" dy="2851" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -720,9 +720,6 @@
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-46" value="载具血量是否&amp;gt;30%" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="3806" y="978" width="127" height="75.5" as="geometry" />
-        </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-48" value="当前载具上是否有&lt;div&gt;可载具射击的飞车党？&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="3309" y="949" width="188" height="67" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-49" value="根据AI警察的载具射击条件&lt;div&gt;判断来进行载具射击&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="3784.75" y="852.66" width="169.5" height="55.75" as="geometry" />
