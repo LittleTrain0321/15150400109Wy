@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="4054" dy="1282" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3067" dy="756" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -848,7 +848,7 @@
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-98" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nckSBPapjt2oIkMcD94M-94">
           <mxGeometry x="-0.7516" y="-1" relative="1" as="geometry">
-            <mxPoint x="89" y="4" as="offset" />
+            <mxPoint x="90" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-97" value="此处主要解决玩家在逼停飞车党后&lt;div&gt;不逮捕或掉线等其他边界情况的问题解决&lt;/div&gt;&lt;div&gt;如果在最后阶段，较远距离都没有玩家&lt;/div&gt;&lt;div&gt;则判定案件结束&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;verticalAlign=top;" vertex="1" parent="1">
