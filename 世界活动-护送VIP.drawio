@@ -234,7 +234,7 @@
           <mxGeometry x="988" y="623" width="246" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-41" value="攻击目标为车" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="548" y="623" width="209" height="79" as="geometry" />
+          <mxGeometry x="532" y="623" width="209" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-42" value="不分阶段" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
           <mxGeometry x="73" y="623" width="177" height="79" as="geometry" />
@@ -246,16 +246,16 @@
           <mxGeometry x="59" y="869" width="177" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-45" value="明确路线" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="300" y="870" width="177" height="79" as="geometry" />
+          <mxGeometry x="300" y="869" width="177" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-46" value="攻击目标为人" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="541" y="870" width="196" height="79" as="geometry" />
+          <mxGeometry x="531" y="869" width="196" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-47" value="纯陆运" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="792" y="871" width="156" height="79" as="geometry" />
+          <mxGeometry x="792" y="869" width="156" height="79" as="geometry" />
         </mxCell>
         <mxCell id="cY9s3i5ZGBaOPXkzrkN2-48" value="玩家驾驶" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" parent="1" vertex="1">
-          <mxGeometry x="988" y="868" width="246" height="79" as="geometry" />
+          <mxGeometry x="988" y="869" width="246" height="79" as="geometry" />
         </mxCell>
         <mxCell id="vtqpUFSVaGis30B-0d2L-2" value="护送运钞车" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-159" y="651" width="91" height="30" as="geometry" />
