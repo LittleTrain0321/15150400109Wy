@@ -261,10 +261,19 @@
           <mxGeometry x="-159" y="651" width="91" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vtqpUFSVaGis30B-0d2L-3" value="未知路线" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="300" y="1196.5" width="177" height="79" as="geometry" />
+          <mxGeometry x="307" y="1196.5" width="177" height="79" as="geometry" />
         </mxCell>
         <mxCell id="vtqpUFSVaGis30B-0d2L-4" value="海陆空" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="792" y="1196.5" width="156" height="79" as="geometry" />
+          <mxGeometry x="794" y="1196.5" width="156" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="vtqpUFSVaGis30B-0d2L-5" value="玩家驾驶+押送" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="988" y="1196.5" width="246" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="vtqpUFSVaGis30B-0d2L-6" value="攻击目标为警匪&lt;div&gt;夺旗&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="518" y="1196.5" width="232" height="117.5" as="geometry" />
+        </mxCell>
+        <mxCell id="vtqpUFSVaGis30B-0d2L-7" value="分阶段" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#d80073;strokeColor=#A50040;fontColor=#ffffff;fontSize=30;" vertex="1" parent="1">
+          <mxGeometry x="68" y="1196.5" width="177" height="79" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
