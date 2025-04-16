@@ -163,8 +163,8 @@
         <mxCell id="Y34pRE13ypVC61gBzhvJ-2" value="是否到达终点" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1505" y="-92.5" width="134" height="73" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-5" value="结算完成的任务&lt;br&gt;&lt;div&gt;案件进入关闭倒计时&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
-          <mxGeometry x="1221.37" y="-258" width="126.25" height="126.25" as="geometry" />
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-5" value="结算完成的任务&lt;br&gt;&lt;div&gt;案件进入&lt;/div&gt;&lt;div&gt;关闭倒计时&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="1235.19" y="-231.31" width="98.62" height="98.62" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-9" value="&lt;div&gt;&lt;b&gt;【逃脱阶段】&lt;/b&gt;&lt;/div&gt;执行逃脱行为" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" parent="1" vertex="1">
           <mxGeometry x="1729" y="-93" width="113" height="72" as="geometry" />
@@ -197,7 +197,7 @@
         <mxCell id="Y34pRE13ypVC61gBzhvJ-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Y34pRE13ypVC61gBzhvJ-9" target="Y34pRE13ypVC61gBzhvJ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Y34pRE13ypVC61gBzhvJ-19" value="逃脱成功&lt;div&gt;案件进入关闭倒计时&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="Y34pRE13ypVC61gBzhvJ-19" value="逃脱成功&lt;div&gt;案件进入&lt;/div&gt;&lt;div&gt;关闭倒计时&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="1950" y="-222" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Y34pRE13ypVC61gBzhvJ-21" value="飞车党AI" style="text;whiteSpace=wrap;html=1;align=center;fontColor=#FF8000;" parent="1" vertex="1">
