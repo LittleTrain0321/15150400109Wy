@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2577" dy="1561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1653" dy="1068" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xqteLKSzbmbyBGJADgs4-27" value="大世界" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4939" y="574" width="215" height="395" as="geometry" />
+          <mxGeometry x="5910" y="1154" width="215" height="395" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-3" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-weight: bold; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;default&quot;&gt;BP_EscapeRoute1&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-27">
           <mxGeometry x="30" y="50" width="140" height="150" as="geometry" />
@@ -584,7 +584,7 @@
           <mxGeometry x="2463.5" y="663" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-23" value="飞车党配置组成" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5202" y="907" width="441" height="583" as="geometry" />
+          <mxGeometry x="4703" y="802" width="441" height="583" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-1" value="飞车党" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
           <mxGeometry x="53.5" y="305" width="30" height="60" as="geometry" />
@@ -938,10 +938,10 @@
           <mxGeometry x="3572" y="1521.25" width="126" height="55.75" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-11" value="LD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="4800" y="718.5" width="30" height="60" as="geometry" />
+          <mxGeometry x="5771" y="1298.5" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-16" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-weight: bold; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;default&quot;&gt;BP_EscapeRoute2&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4969" y="795.12" width="140" height="150" as="geometry" />
+          <mxGeometry x="5940" y="1375.12" width="140" height="150" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-30" value="路线ID:102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-16">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -967,10 +967,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-31" value="案件系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="5910" y="625" width="215" height="487" as="geometry" />
+          <mxGeometry x="5894" y="625" width="231" height="487" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-32" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-weight: bold; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;default&quot;&gt;追击案件1&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-31">
-          <mxGeometry x="10" y="46" width="186" height="180" as="geometry" />
+          <mxGeometry x="22.5" y="46" width="186" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-33" value="路线ID：101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-32">
           <mxGeometry y="30" width="186" height="30" as="geometry" />
@@ -984,11 +984,11 @@
         <mxCell id="xqteLKSzbmbyBGJADgs4-45" value="期望行驶速度：120" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-32">
           <mxGeometry y="120" width="186" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xqteLKSzbmbyBGJADgs4-69" value="飞车党配置ID：1001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-32">
+        <mxCell id="xqteLKSzbmbyBGJADgs4-69" value="飞车党组ID：1001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-32">
           <mxGeometry y="150" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-73" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-weight: bold; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;default&quot;&gt;追击案件2&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-31">
-          <mxGeometry x="10" y="265" width="186" height="180" as="geometry" />
+          <mxGeometry x="22.5" y="265" width="186" height="180" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-74" value="路线ID：102" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-73">
           <mxGeometry y="30" width="186" height="30" as="geometry" />
@@ -1002,7 +1002,7 @@
         <mxCell id="xqteLKSzbmbyBGJADgs4-78" value="期望行驶速度：120" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-73">
           <mxGeometry y="120" width="186" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xqteLKSzbmbyBGJADgs4-79" value="飞车党配置ID：1002" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-73">
+        <mxCell id="xqteLKSzbmbyBGJADgs4-79" value="飞车党组ID：1002" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-73">
           <mxGeometry y="150" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-42" value="GD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
@@ -1046,8 +1046,68 @@
         <mxCell id="xqteLKSzbmbyBGJADgs4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.133;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-42" target="xqteLKSzbmbyBGJADgs4-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xqteLKSzbmbyBGJADgs4-66" value="配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xqteLKSzbmbyBGJADgs4-64">
-          <mxGeometry x="-0.0475" y="-1" relative="1" as="geometry">
+        <mxCell id="xqteLKSzbmbyBGJADgs4-94" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;b&gt;飞车党组配置&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5426" y="909" width="217" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-103" value="飞车党组ID:1001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry y="30" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-95" value="载具ID：1001" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry y="60" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-96" value="载具驾驶能力" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry y="90" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-97" value="载具驾驶风格" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry y="120" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-98" value="飞车党NPC ID：101,102,103" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry y="150" width="217" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-104" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;b&gt;飞车党 NPC配置&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5223" y="969" width="133" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-105" value="飞车党NPC ID：101" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="30" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-106" value="外观" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="60" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-107" value="武器" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="90" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-108" value="道具" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="120" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-109" value="战斗能力" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="150" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-110" value="战斗风格" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry y="180" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-107" target="xqteLKSzbmbyBGJADgs4-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-96" target="xqteLKSzbmbyBGJADgs4-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-96" target="xqteLKSzbmbyBGJADgs4-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.998;entryY=0.112;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-42" target="xqteLKSzbmbyBGJADgs4-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-42" target="xqteLKSzbmbyBGJADgs4-104">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5693" y="642" />
+              <mxPoint x="5693" y="889" />
+              <mxPoint x="5289" y="889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xqteLKSzbmbyBGJADgs4-117" value="配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xqteLKSzbmbyBGJADgs4-116">
+          <mxGeometry x="-0.9581" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
