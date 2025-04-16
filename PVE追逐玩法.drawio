@@ -815,10 +815,10 @@
         <mxCell id="nckSBPapjt2oIkMcD94M-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="nckSBPapjt2oIkMcD94M-83" target="nckSBPapjt2oIkMcD94M-85" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-83" value="&lt;div&gt;清理现场&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="nckSBPapjt2oIkMcD94M-83" value="&lt;div&gt;任务&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;结算&lt;/span&gt;&lt;/div&gt;&lt;div&gt;清理现场&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="3824.625" y="2050.25" width="88.75" height="55.75" as="geometry" />
         </mxCell>
-        <mxCell id="nckSBPapjt2oIkMcD94M-85" value="案件结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="nckSBPapjt2oIkMcD94M-85" value="案件触发&lt;div&gt;关闭倒计时&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3818.5" y="2181" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="nckSBPapjt2oIkMcD94M-87" target="nckSBPapjt2oIkMcD94M-78" edge="1">
