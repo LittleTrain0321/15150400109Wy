@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
   <diagram name="第 1 页" id="Fj61eVcG0aGDND_bpaBV">
-    <mxGraphModel dx="2770" dy="1850" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2577" dy="1561" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -584,19 +584,19 @@
           <mxGeometry x="2463.5" y="663" width="139" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-23" value="飞车党配置组成" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-621" y="-631" width="590" height="583" as="geometry" />
+          <mxGeometry x="5202" y="907" width="441" height="583" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-1" value="飞车党" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="126.5" y="306" width="30" height="60" as="geometry" />
+          <mxGeometry x="53.5" y="305" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-2" value="外观" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="97" y="398" width="100" height="30" as="geometry" />
+          <mxGeometry x="24" y="397" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-5" value="武器" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="97" y="439" width="100" height="30" as="geometry" />
+          <mxGeometry x="24" y="438" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-6" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="97" y="523" width="100" height="30" as="geometry" />
+          <mxGeometry x="24" y="522" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;dashed=1;dashPattern=8 8;" parent="nckSBPapjt2oIkMcD94M-23" source="nckSBPapjt2oIkMcD94M-8" target="nckSBPapjt2oIkMcD94M-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -605,49 +605,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-8" value="&lt;div&gt;载具&lt;/div&gt;" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="219" y="146" width="120" height="80" as="geometry" />
+          <mxGeometry x="146" y="145" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-10" value="外观" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="225" y="58" width="100" height="30" as="geometry" />
+          <mxGeometry x="152" y="57" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-11" value="驾驶能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="225" y="100" width="100" height="30" as="geometry" />
+          <mxGeometry x="152" y="99" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-12" value="飞车党" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="274.5" y="306" width="30" height="60" as="geometry" />
+          <mxGeometry x="201.5" y="305" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-13" value="外观" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="245" y="398" width="100" height="30" as="geometry" />
+          <mxGeometry x="172" y="397" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-14" value="武器" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="245" y="439" width="100" height="30" as="geometry" />
+          <mxGeometry x="172" y="438" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-15" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="245" y="523" width="100" height="30" as="geometry" />
+          <mxGeometry x="172" y="522" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=70;exitDy=80;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="nckSBPapjt2oIkMcD94M-23" source="nckSBPapjt2oIkMcD94M-8" target="nckSBPapjt2oIkMcD94M-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-17" value="飞车党" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="422.5" y="306" width="30" height="60" as="geometry" />
+          <mxGeometry x="349.5" y="305" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-18" value="外观" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="393" y="398" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="397" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-19" value="武器" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="393" y="439" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="438" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-20" value="战斗能力和风格" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="393" y="523" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="522" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-24" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="97" y="481" width="100" height="30" as="geometry" />
+          <mxGeometry x="24" y="480" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-25" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="245" y="481" width="100" height="30" as="geometry" />
+          <mxGeometry x="172" y="480" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-26" value="道具" style="rounded=1;whiteSpace=wrap;html=1;" parent="nckSBPapjt2oIkMcD94M-23" vertex="1">
-          <mxGeometry x="393" y="481" width="100" height="30" as="geometry" />
+          <mxGeometry x="320" y="480" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nckSBPapjt2oIkMcD94M-27" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="3818.5" y="231" width="100" height="100" as="geometry" />
@@ -967,7 +967,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-31" value="案件系统" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4939" y="1015" width="215" height="487" as="geometry" />
+          <mxGeometry x="5910" y="625" width="215" height="487" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-32" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size: medium; text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; font-size: 12pt; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;span style=&quot;font-size: 11pt; font-weight: bold; color: rgb(51, 51, 51); letter-spacing: 0pt; vertical-align: baseline;&quot; data-font-family=&quot;default&quot;&gt;追击案件1&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-31">
           <mxGeometry x="10" y="46" width="186" height="180" as="geometry" />
@@ -1006,7 +1006,7 @@
           <mxGeometry y="150" width="186" height="30" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-42" value="GD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="4800" y="1008" width="30" height="60" as="geometry" />
+          <mxGeometry x="5744" y="621.69" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.001;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xqteLKSzbmbyBGJADgs4-42" target="xqteLKSzbmbyBGJADgs4-31">
           <mxGeometry relative="1" as="geometry" />
@@ -1017,7 +1017,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-55" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;b&gt;追击通用配置&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="4486" y="997" width="217" height="270" as="geometry" />
+          <mxGeometry x="5426" y="605.69" width="217" height="270" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-80" value="初始警察玩家检测半径：300米" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="xqteLKSzbmbyBGJADgs4-55">
           <mxGeometry y="30" width="217" height="30" as="geometry" />
