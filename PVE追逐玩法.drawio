@@ -1020,7 +1020,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-55" value="&lt;div style=&quot;font-size: medium; text-align: start;&quot; data-hash=&quot;dfb1e42fd19c118de8a3124cfd5131fb&quot; data-version=&quot;3.0.0&quot;&gt;&lt;/div&gt;&lt;div style=&quot;text-align: start;&quot; class=&quot;section&quot;&gt;&lt;p style=&quot;margin: 3pt 0pt; font-family: 等线; line-height: 1.3;&quot; class=&quot;paragraph text-align-type-left&quot;&gt;&lt;font color=&quot;#333333&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;&lt;b&gt;追击通用配置&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="5426" y="471" width="217" height="390" as="geometry" />
+          <mxGeometry x="5423" y="443" width="217" height="390" as="geometry" />
         </mxCell>
         <mxCell id="xqteLKSzbmbyBGJADgs4-80" value="初始警察玩家检测半径：300米" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="xqteLKSzbmbyBGJADgs4-55" vertex="1">
           <mxGeometry y="30" width="217" height="30" as="geometry" />
